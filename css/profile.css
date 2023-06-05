@@ -36,7 +36,7 @@ a:hover {
   height: 85%;
 }
 .main-image {
-  background-image: url(/Users/marilyn/Documents/portfolio/images/main.jpg);
+  background-image: url(https://github.com/yowsee/portfolio/blob/main/images/main.jpg?raw=true);
   background-size: cover;
   background-position: center;
   position: absolute;
