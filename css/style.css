@@ -301,7 +301,7 @@ input[type="checkbox"] {
   }
   .header {
     position: fixed;
-    background-image: url(/Users/marilyn/Documents/portfolio/images/sub.jpg);
+    background-image: url(https://github.com/yowsee/portfolio/blob/main/images/sub.jpg?raw=true);
     background-size: cover;
     width: 100%;
     height: 120px;
