@@ -408,7 +408,6 @@ input[type="checkbox"] {
   }
   .menu-list li {
     margin: 0 0 10px 0;
-    background-color: rgba(200, 200, 200);
     border-bottom: 2px solid;
     border-bottom-color: #4b4b4b;
     cursor: pointer;
