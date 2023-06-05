@@ -475,11 +475,11 @@ input[type="checkbox"] {
 
   .top-space {
     position: relative;
-    top: -80px;
+    top: -100px;
   }
   .space {
     position: relative;
-    top: -80px;
+    top: -100px;
   }
  
   .explanation-list img {
