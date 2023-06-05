@@ -27,7 +27,7 @@ a:hover {
   position: relative;
 }
 .sub-image {
-  background-image: url(/Users/marilyn/Documents/portfolio/images/solid.jpg);
+  background-image: url(https://github.com/yowsee/portfolio/blob/main/images/solid.jpg?raw=true);
   background-size: cover;
   position: absolute;
   top: 90px;
