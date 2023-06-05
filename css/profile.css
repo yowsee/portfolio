@@ -121,6 +121,7 @@ a:hover {
   letter-spacing: 2px;
   margin: 20px;
   padding-top: 20px;
+  line-height: 2;
 }
 .frofile p span {
   font-size: 13px;
