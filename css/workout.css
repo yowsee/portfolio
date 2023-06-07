@@ -218,7 +218,11 @@ input[type="checkbox"]:checked ~ .selectbox {
   margin: 0 auto 0 0;
 }
 .line {
-  text-decoration: line-through 2px solid #131212;
+/*   text-decoration: line-through 2px solid #131212; */
+  text-decoration-line: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-style: solid;
+  text-decoration-color: #131212;
 }
 .item a {
   display: flex;
