@@ -157,7 +157,7 @@ a:hover {
   margin-left: 1rem;
   text-indent: -1.5rem;
 }
-.content-list p {
+.content-list .eng {
   color: #4b4b4b;
   font-size: 16px;
   font-weight: normal;
@@ -165,17 +165,23 @@ a:hover {
   padding: 0;
   margin: 0;
 }
-.content-list p:hover {
+.content-list .eng:hover {
   color: #131212;
   transition: all .4s;
   font-size: 17px;
   font-weight: bold;
 }  
-.content-list p span {
+.content-list .jpn {
   font-size: 12px;
   opacity: 0.7;
-  padding-left: 5px;
 }
+.content-list .jpn:hover {
+  color: #131212;
+  transition: all .4s;
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 0.7;
+}  
 .content-item li  {
   margin-left: 2rem;
   text-indent: -3rem;
