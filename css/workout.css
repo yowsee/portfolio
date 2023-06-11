@@ -219,8 +219,8 @@ input[type="checkbox"]:checked ~ .selectbox {
 }
 .line {
   text-decoration-line: line-through;
-  text-decoration-thickness: 2px;
-  text-decoration-style: double;
+  text-decoration-thickness: 4px;
+  text-decoration-style: solid;
   text-decoration-color: #131212;
 }
 .item a {
