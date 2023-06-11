@@ -507,7 +507,7 @@ input[type="checkbox"] {
     display: inline-flex;
   }
   .line {
-  text-decoration-thickness: 5px;
+  text-decoration-style: double;
   }
   .nav-menu ul {
     position: fixed;
