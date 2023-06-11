@@ -469,23 +469,14 @@ input[type="checkbox"] {
     font-size: 20px;
     font-weight: bolder;
   }
-  /* .content-list .eng {
-    padding-left: 1rem;
-    text-indent: -1rem;
-  } */
-  /* .content-item li {
-    text-indent: -2.5rem;
-  } */
-
   .top-space {
     position: relative;
-    top: -100px;
+    top: -85px;
   }
   .space {
     position: relative;
-    top: -100px;
+    top: -85px;
   }
- 
   .explanation-list img {
     max-width: 80%;
   }
