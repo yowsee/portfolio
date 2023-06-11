@@ -191,11 +191,8 @@ a:hover {
   padding-left: 0;
   margin-left: -40px;
 }
-.top-space {
-  padding-top: 1px;
-}
 .space {
-  padding-top: 38px;
+  padding-top: 25px;
 }
 .explanation-list {
   padding: 0;
