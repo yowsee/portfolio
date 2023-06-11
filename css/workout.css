@@ -219,7 +219,7 @@ input[type="checkbox"]:checked ~ .selectbox {
 }
 .line {
   text-decoration-line: line-through;
-  text-decoration-thickness: 4px;
+  text-decoration-thickness: 2px;
   text-decoration-style: solid;
   text-decoration-color: #131212;
 }
@@ -494,6 +494,9 @@ input[type="checkbox"] {
   .selectbox a {
     display: inline-flex;
   }
+  input[type="checkbox"]:checked ~ .item {
+    display: block;
+  }
   .item {
     text-align: center;
   }
@@ -503,8 +506,8 @@ input[type="checkbox"] {
   .item a {
     display: inline-flex;
   }
-  input[type="checkbox"]:checked ~ .item {
-    display: block;
+  .line {
+  text-decoration-thickness: 5px;
   }
   .nav-menu ul {
     position: fixed;
