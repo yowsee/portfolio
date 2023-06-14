@@ -431,11 +431,6 @@ input[type="checkbox"] {
     font-size: 20px;
     font-weight: bolder;
   }
-  .content-items {
-    position: relative;
-    top: -120px;
-    display: block;
-  }
   .aside {
     grid-area: unset;
   }
@@ -450,6 +445,7 @@ input[type="checkbox"] {
   .content-items {
     position: relative;
     top: -80px;
+    display: block;
   }
   .modal-contents {
     min-width: 300px;
