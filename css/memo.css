@@ -334,7 +334,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
   .container {
     display: grid;
     background-color: rgba(145, 145, 145, 0.1);
