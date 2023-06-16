@@ -334,7 +334,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: ７６８px) {
   .container {
     display: grid;
     background-color: rgba(145, 145, 145, 0.1);
@@ -491,10 +491,10 @@ input[type="checkbox"] {
     width: 160px;
     margin: 20px 5px;
   }
-  .textarea {
+/*   .textarea {
     height: 300px;
     width: 370px;
-  }
+  } */
   .memo ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(235px, 2fr));
@@ -652,5 +652,12 @@ input[type="checkbox"] {
     left: 35px;
     border: 13px solid transparent;
     border-top: 13px solid #131212;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .textarea {
+    height: 400px;
+    width: 370px;
   }
 }
