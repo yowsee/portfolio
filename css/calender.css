@@ -91,15 +91,15 @@ a:hover {
 }
 .menu-list p {
   color: #4b4b4b;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
 }
 .menu-list p:hover {
   color: #131212;
+  font-weight: 700;
   transition: all .4s;
-  font-size: 17px;
 }
 .main {
   grid-area: main;
@@ -175,10 +175,11 @@ td.today {
   cursor: default;
   width: fit-content;
   font-size: 12px;
+  font-weight: 400;
   margin: 8px 0 0 auto;
 }
 .mission:hover {
-  font-weight: bold;
+  font-weight: 600;
 }
 .next-prev-button {
   position: relative;
@@ -190,6 +191,7 @@ td.today {
   border: 1px solid #4b4b4b;
   border-radius: 4px;
   font-size: 15px;
+  font-weight: 400;
   margin: 30px 0;
 }
 .next-prev-button button.prev {
@@ -205,7 +207,7 @@ td.today {
 .next-prev-button button:hover{
   background-color: #131212;
   border-color: #131212;
-  font-size: 17px;
+  font-weight: 600;
 }
 .next-prev-button button.today {
   background-color: #D65E72;
@@ -214,13 +216,15 @@ td.today {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
+  font-size: 15px;
+  font-weight: 400;
   width: 120px;
   height: 42px;
 }
 .next-prev-button button.today:hover {
   background-color: #131212;
   border-color: #131212;
-  font-size: 17px;
+  font-weight: 600;
 }
 .modal {
   max-width: inherit;
@@ -265,7 +269,7 @@ td.today {
 .select-options label {
   width: 180px;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: 400;
   color: #4b4b4b;
   letter-spacing: 2px;
   margin: 10px auto;
@@ -274,7 +278,7 @@ td.today {
 .select-options label:hover {
   color: #131212;
   transition: all .4s;
-  font-weight: bold;
+  font-weight: 600;
 }
 .radio {
   transform: scale(1.5);
@@ -288,7 +292,7 @@ td.today {
   background: #4b4b4b;
   color: white;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 400;
   letter-spacing: 2px;
   border: none;
   border-radius: 4px;
@@ -297,7 +301,7 @@ td.today {
 .modal button:hover {
   background: #131212;
   color: white;
-  font-size: 18px;
+  font-weight: 600;
   transition: all .4s;
 }
 .mask {
@@ -372,14 +376,14 @@ td.today {
   display: block;
   margin: 0;
   color: #4b4b4b;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
 }
 .nav-menu P:hover {
   color: #131212;
-  font-size: 17px;
+  font-weight: 700;
   transition: all .4s;
 }
 .nav-menu i {
