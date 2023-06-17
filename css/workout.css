@@ -669,6 +669,21 @@ input[type="checkbox"] {
   .container {
     grid-template-rows: 120px auto 430px 50px;
   }
+  .selectbox select {
+    width: 80px;
+    height: 24px;
+    font-size: 12px;
+  }
+  .selectbox a {
+    width: 80px;
+    height: 24px;
+    font-size: 12px;
+  }
+  .item a {
+    width: 80px;
+    height: 24px;
+    font-size: 12px;
+  }
   .nav-menu ul {
     height: 60px;
     align-items: center;
