@@ -263,6 +263,7 @@ a:hover {
   margin-left: 30px;
 }
 .nav-menu p {
+/*   display: block; */
   margin: 0;
   color: #4b4b4b;
   font-size: 15px;
