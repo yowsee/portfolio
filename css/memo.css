@@ -369,14 +369,14 @@ input[type="checkbox"] {
   }
   .main-title {
     font-size: 30px;
-    font-weight: normal;
+    font-weight: 400;
     letter-spacing: 10px;
     margin: 0;
     padding: 0;
   }
   .sub-title {
     font-size: 30px;
-    font-weight: normal;
+    font-weight: 400;
     letter-spacing: 10px;
     color: transparent;
     margin: 0;
@@ -385,7 +385,7 @@ input[type="checkbox"] {
   .sub-title span {
     font-size: 30px;
     letter-spacing: 10px;
-    font-weight: normal;
+    font-weight: 400;
     margin: 0;
     padding: 0;
   }
@@ -455,7 +455,6 @@ input[type="checkbox"] {
   }
   .menu-list li {
     margin: 0 0 10px 0;
-    /* background-color: rgba(200, 200, 200); */
     border-bottom: 2px solid;
     border-bottom-color: #4b4b4b;
     cursor: pointer;
@@ -491,10 +490,6 @@ input[type="checkbox"] {
     width: 160px;
     margin: 20px 5px;
   }
-/*   .textarea {
-    height: 300px;
-    width: 370px;
-  } */
   .memo ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(235px, 2fr));
@@ -530,12 +525,12 @@ input[type="checkbox"] {
     padding: 7px 10px;
     margin: 0;
     font-size: 15px;
-    font-weight: normal;
+    font-weight: 400;
     color: white;
     cursor: default;
   }
   .nav-menu p:hover {
-    font-size: 15px;
+    font-weight: 600;
     color: white;
   } 
   .nav-menu li:hover .box01 {
@@ -659,5 +654,16 @@ input[type="checkbox"] {
   .textarea {
     height: 400px;
     width: 370px;
+  }
+  .container {
+    grid-template-rows: 120px auto 430px 50px;
+  }
+  .nav-menu ul {
+    height: 60px;
+    align-items: center;
+  }
+  .nav-menu i {
+    font-size: 25px;
+    padding-top: 5px;
   }
 }
