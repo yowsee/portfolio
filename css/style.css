@@ -263,7 +263,6 @@ a:hover {
   margin-left: 30px;
 }
 .nav-menu p {
-/*   display: block; */
   margin: 0;
   color: #4b4b4b;
   font-size: 16px;
@@ -447,6 +446,11 @@ input[type="checkbox"] {
   }
   .modal-contents {
     min-width: 300px;
+  }
+  .modal a {
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
   }
   .nav-menu ul {
     position: fixed;
