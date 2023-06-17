@@ -91,15 +91,15 @@ a:hover {
 }
 .menu-list p {
   color: #4b4b4b;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
 }
 .menu-list p:hover {
   color: #131212;
+  font-weight: 800;
   transition: all .4s;
-  font-size: 17px;
 }
 .main {
   grid-area: main;
@@ -185,7 +185,7 @@ a:hover {
   background: #4b4b4b;
   color: white;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 600;
   letter-spacing: 2px;
   border-radius: 4px;
   cursor: pointer;
@@ -193,7 +193,7 @@ a:hover {
 .modal a:hover {
   background: #131212;
   color: white;
-  font-size: 18px;
+  font-weight: 800;
   transition: all .4s;
 }
 .mask {
@@ -266,7 +266,7 @@ a:hover {
 /*   display: block; */
   margin: 0;
   color: #4b4b4b;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 2px;
   font-weight: 600;
   cursor: pointer;
