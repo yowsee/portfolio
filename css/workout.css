@@ -320,7 +320,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .container {
     display: grid;
     background-color: rgba(145, 145, 145, 0.1);
@@ -659,4 +659,8 @@ input[type="checkbox"] {
     border: 13px solid transparent;
     border-top: 13px solid #131212;
   }
+}
+
+@media screen and (max-width: 768px) {
+
 }
