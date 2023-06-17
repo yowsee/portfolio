@@ -93,12 +93,12 @@ a:hover {
   color: #4b4b4b;
   font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
 }
 .menu-list p:hover {
   color: #131212;
-  font-weight: 800;
+  font-weight: 700;
   transition: all .4s;
 }
 .main {
@@ -268,12 +268,12 @@ a:hover {
   color: #4b4b4b;
   font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
 }
 .nav-menu P:hover {
   color: #131212;
-  font-weight: 800;
+  font-weight: 700;
   transition: all .4s;
 }
 .nav-menu i {
