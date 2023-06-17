@@ -329,7 +329,7 @@ input[type="checkbox"] {
   }
   .sub-title {
     font-size: 30px;
-    font-weight: normal;
+    font-weight: 400;
     letter-spacing: 10px;
     color: transparent;
     margin: 0;
@@ -338,7 +338,7 @@ input[type="checkbox"] {
   .sub-title span {
     font-size: 30px;
     letter-spacing: 10px;
-    font-weight: normal;
+    font-weight: 400;
     margin: 0;
     padding: 0;
   }
@@ -422,13 +422,12 @@ input[type="checkbox"] {
     text-indent: 2rem;
     color: #4b4b4b;
     font-size: 20px;
-    font-weight: normal;
+    font-weight: 400;
     letter-spacing: 5px;
   }
   .menu-list p:hover {
     color: #131212;
-    font-size: 20px;
-    font-weight: bolder;
+    font-weight: 600;
   }
   .aside {
     grid-area: unset;
@@ -476,12 +475,12 @@ input[type="checkbox"] {
     padding: 7px 10px;
     margin: 0;
     font-size: 15px;
-    font-weight: normal;
+    font-weight: 400;
     color: white;
     cursor: default;
   }
   .nav-menu p:hover {
-    font-size: 15px;
+    font-weight: 600;
     color: white;
   } 
   .nav-menu li:hover .box01 {
