@@ -488,9 +488,13 @@ input[type="checkbox"] {
   }
   .selectbox select {
     display: inline-flex;
+    height: 26px;
+    font-size: 13px;
   }
   .selectbox a {
     display: inline-flex;
+    height: 26px;
+    font-size: 13px;
   }
   input[type="checkbox"]:checked ~ .item {
     display: block;
@@ -503,6 +507,8 @@ input[type="checkbox"] {
   }
   .item a {
     display: inline-flex;
+    height: 26px;
+    font-size: 13px;
   }
   .line {
   text-decoration-style: double;
