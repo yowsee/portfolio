@@ -185,7 +185,7 @@ a:hover {
   background: #4b4b4b;
   color: white;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 2px;
   border-radius: 4px;
   cursor: pointer;
@@ -193,7 +193,7 @@ a:hover {
 .modal a:hover {
   background: #131212;
   color: white;
-  font-weight: 800;
+  font-weight: 600;
   transition: all .4s;
 }
 .mask {
