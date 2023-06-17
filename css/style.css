@@ -268,12 +268,12 @@ a:hover {
   color: #4b4b4b;
   font-size: 15px;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
 }
 .nav-menu P:hover {
   color: #131212;
-  font-size: 17px;
+  font-weight: 800;
   transition: all .4s;
 }
 .nav-menu i {
