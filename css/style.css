@@ -322,7 +322,7 @@ input[type="checkbox"] {
   }
   .main-title {
     font-size: 30px;
-    font-weight: normal;
+    font-weight: 400;
     letter-spacing: 10px;
     margin: 0;
     padding: 0;
@@ -602,5 +602,19 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    grid-template-rows: 120px auto 430px 50px;
+  }
+  .menu-list p {
+    font-size: 14px;
+  }
+  .nav-menu ul {
+    height: 60px;
+    align-items: center;
+  }
+  .nav-menu i {
+    font-size: 25px;
+    padding-top: 5px;
+  }
 
 }
