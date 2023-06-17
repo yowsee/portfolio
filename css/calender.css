@@ -393,7 +393,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .container {
     overflow-x: scroll;
     display: grid;
@@ -719,4 +719,8 @@ input[type="checkbox"] {
     border: 13px solid transparent;
     border-top: 13px solid #131212;
   }
+}
+
+@media screen and (max-width: 768px) {
+
 }
