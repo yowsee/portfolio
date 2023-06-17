@@ -91,15 +91,15 @@ a:hover {
 }
 .menu-list p {
   color: #4b4b4b;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
 }
 .menu-list p:hover {
   color: #131212;
+  font-weight: 700;
   transition: all .4s;
-  font-size: 17px;
 }
 .main {
   grid-area: main;
@@ -154,7 +154,7 @@ a:hover {
   color: white;
   text-align: center;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
   letter-spacing: 2px;
   text-indent: 10px;
   border-radius: 4px;
@@ -165,8 +165,8 @@ a:hover {
 }
 .selectbox select:hover {
   background: #131212;
-  color: white;
-  font-size: 16px;
+/*   color: white; */
+  font-weight: 600;
   transition: all .4s;
 }
 .selectbox a {
@@ -178,7 +178,7 @@ a:hover {
   background: #4b4b4b;
   color: white;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
   letter-spacing: 2px;
   border-radius: 4px;
   cursor: pointer;
@@ -186,8 +186,8 @@ a:hover {
 }
 .selectbox a:hover {
   background: #131212;
-  color: white;
-  font-size: 16px;
+/*   color: white; */
+  font-weight: 600;
   transition: all .4s;
 }
 .item {
@@ -232,7 +232,7 @@ input[type="checkbox"]:checked ~ .selectbox {
   background: #4b4b4b;
   color: white;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
   letter-spacing: 2px;
   border-radius: 4px;
   cursor: pointer;
@@ -240,8 +240,8 @@ input[type="checkbox"]:checked ~ .selectbox {
 }
 .item a:hover {
   background: #131212;
-  color: white;
-  font-size: 16px;
+/*   color: white; */
+  font-weight: 600;
   transition: all .4s;
 }
 .footer {
@@ -299,14 +299,14 @@ input[type="checkbox"]:checked ~ .selectbox {
   display: block;
   margin: 0;
   color: #4b4b4b;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
 }
 .nav-menu P:hover {
   color: #131212;
-  font-size: 17px;
+  font-weight: 700;
   transition: all .4s;
 }
 .nav-menu i {
