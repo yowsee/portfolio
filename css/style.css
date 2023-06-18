@@ -105,7 +105,7 @@ a:hover {
   grid-area: main;
   margin-right: 10px;
 }
-.main p {
+.label p {
   color: white;
   font-size: 20px;
   font-weight: 500;
