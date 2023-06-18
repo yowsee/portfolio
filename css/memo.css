@@ -654,7 +654,7 @@ input[type="checkbox"] {
 @media screen and (max-width: 768px) {
   .textarea {
     height: 400px;
-    width: 370px;
+    width: 340px;
   }
   .container {
     grid-template-rows: 120px auto 430px 50px;
