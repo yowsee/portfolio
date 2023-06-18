@@ -475,151 +475,7 @@ input[type="checkbox"] {
   .nav-menu i:hover {
     color: #131212;
   }
-/*  .nav-menu p {
-    padding: 7px 10px;
-    margin: 0;
-    font-size: 15px;
-    font-weight: 400;
-    color: white;
-    cursor: default;
-  } */
-/*   .nav-menu p:hover {
-    font-weight: 600;
-    color: white;
-  } 
-  .nav-menu li:hover .box01 {
-    display: block;
-  }
-  .nav-menu li:hover .box02 {
-    display: block;
-  }
-  .nav-menu li:hover .box03 {
-    display: block;
-  } 
-  .nav-menu li:hover .box04 {
-    display: block;
-  } 
-  .nav-menu li:hover .box05 {
-    display: block;
-  }  
-  .box01 {
-    position: absolute;
-    width: auto;
-    height: auto;
-    top: -50px;
-    left: -17px;
-    border-radius: 4px;
-    background: #131212;
-    display: none;
-  }
-  .box01:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: 28px;
-    left: 24px;
-    border: 13px solid transparent;
-    border-top: 13px solid #131212;
-  }
-  .box02 {
-    position: absolute;
-    width: auto;
-    height: auto;
-    top: -50px;
-    left: -34px;
-    border-radius: 4px;
-    background: #131212;
-    display: none;
-  }
-  .box02:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: 28px;
-    left: 41px;
-    border: 13px solid transparent;
-    border-top: 13px solid #131212;
-  }
-  .box03 {
-    position: absolute;
-    width: auto;
-    height: auto;
-    top: -50px;
-    left: -18px;
-    border-radius: 4px;
-    background: #131212;
-    display: none;
-  }
-  .box03:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: 28px;
-    left: 25px;
-    border: 13px solid transparent;
-    border-top: 13px solid #131212;
-  }
-  .box04 {
-    position: absolute;
-    width: auto;
-    height: auto;
-    top: -50px;
-    left: -36px;
-    border-radius: 4px;
-    background: #131212;
-    display: none;
-  }
-  .box04:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: 28px;
-    left: 43px;
-    border: 13px solid transparent;
-    border-top: 13px solid #131212;
-  }
-  .box05 {
-    position: absolute;
-    width: auto;
-    height: auto;
-    top: -50px;
-    left: -29px;
-    border-radius: 4px;
-    background: #131212;
-    display: none;
-  }
-  .box05:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: 28px;
-    left: 35px;
-    border: 13px solid transparent;
-    border-top: 13px solid #131212;
-  } */
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    grid-template-rows: 120px auto 430px 50px;
-  }
-  .nav-menu ul {
-    height: 60px;
-    align-items: center;
-  }
-  .nav-menu i {
-    font-size: 25px;
-    padding-top: 5px;
-  }
-}
-
-@media(hover: hover) {
-   .nav-menu p {
+  .nav-menu p {
     padding: 7px 10px;
     margin: 0;
     font-size: 15px;
@@ -747,5 +603,20 @@ input[type="checkbox"] {
     border-top: 13px solid #131212;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-rows: 120px auto 430px 50px;
+  }
+  .nav-menu ul {
+    height: 60px;
+    align-items: center;
+  }
+  .nav-menu i {
+    font-size: 25px;
+    padding-top: 5px;
+  }
+}
+
 
 
