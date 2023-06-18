@@ -754,24 +754,37 @@ input[type="checkbox"] {
   .nav-menu p {
     display: none;
   }
+  .nav-menu p:hover {
+    pointer-events: none;
+  } 
+  .nav-menu li:hover .box01 {
+    pointer-events: none;
+  }
+  .nav-menu li:hover .box02 {
+    pointer-events: none;
+  }
+  .nav-menu li:hover .box03 {
+    pointer-events: none;
+  } 
+  .nav-menu li:hover .box04 {
+    pointer-events: none;
+  } 
+  .nav-menu li:hover .box05 {
+    pointer-events: none;
+  }  
   .box01:after {
     content: none;
-    pointer-events: none;
   }
   .box02:after {
     content: none;
-    pointer-events: none;
   }
   .box03:after {
     content: none;
-    pointer-events: none;
   }
   .box04:after {
     content: none;
-    pointer-events: none;
   }
   .box05:after {
     content: none;
-    pointer-events: none;
   }
 }
