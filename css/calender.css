@@ -735,13 +735,13 @@ input[type="checkbox"] {
     font-size: 12px;
   } 
   .modal .save {
-    margin: 10px 20px 0px 20px;
+    margin: 10px 40px 0px 40px;
   }  
   .modal .delete {
-    margin: 10px 20px 0px 20px;
+    margin: 10px 40px 0px 40px;
   }  
   .modal .cancel {
-    margin: 10px 20px 10px 20px;
+    margin: 10px 40px 10px 40px;
   }  
   .nav-menu ul {
     height: 60px;
