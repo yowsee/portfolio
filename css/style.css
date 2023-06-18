@@ -608,6 +608,32 @@ input[type="checkbox"] {
   .container {
     grid-template-rows: 120px auto 430px 50px;
   }
+  .label p {
+    position: relative;
+  }
+  .label p::after {
+    content:"";
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 30px;
+    transform: rotate(135deg);
+    cursor: pointer;
+  }
+  .check:checked + .label p::after {
+    transform: rotate(-45deg);
+    transform-origin: 100% 100%;
+  }
+  .check:checked + .label + .main-gallery {
+    height: auto;
+    display: grid;
+  }
+  .main-gallery{
+    display: none;
+  }
   .nav-menu ul {
     height: 60px;
     align-items: center;
