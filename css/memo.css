@@ -487,8 +487,9 @@ input[type="checkbox"] {
     margin: 140px 0 0;
   }
   .modal button {
-    width: 160px;
-    margin: 20px 5px;
+    width: 140px;
+    height: 35px;
+    font-size: 14px;
   }
   .memo ul {
     display: grid;
@@ -657,6 +658,11 @@ input[type="checkbox"] {
   }
   .container {
     grid-template-rows: 120px auto 430px 50px;
+  }
+  .modal button {
+    width: 120px;
+    height: 26px;
+    font-size: 12px;
   }
   .nav-menu ul {
     height: 60px;
