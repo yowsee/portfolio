@@ -286,7 +286,7 @@ td.today {
   cursor: pointer;
 }
 .modal button {
-  width: 140px;
+  width: 160px;
   height: 40px;
   margin: 20px;
   background: #4b4b4b;
@@ -569,8 +569,10 @@ input[type="checkbox"] {
     width: 80%;
   }
   .modal button {
-    margin: 10px;
-  }  
+    width: 140px;
+    height: 35px;
+    font-size: 14px;
+  } 
   .nav-menu ul {
     position: fixed;
     bottom: 0;
@@ -727,6 +729,11 @@ input[type="checkbox"] {
   .container {
     grid-template-rows: 120px auto 430px 50px;
   }
+  .modal button {
+    width: 120px;
+    height: 26px;
+    font-size: 12px;
+  } 
   .nav-menu ul {
     height: 60px;
     align-items: center;
