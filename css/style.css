@@ -486,22 +486,7 @@ input[type="checkbox"] {
   .nav-menu p:hover {
     font-weight: 600;
     color: white;
-  } 
-/*   .nav-menu li:hover .box01 {
-    display: block;
   }
-  .nav-menu li:hover .box02 {
-    display: block;
-  }
-  .nav-menu li:hover .box03 {
-    display: block;
-  } 
-  .nav-menu li:hover .box04 {
-    display: block;
-  } 
-  .nav-menu li:hover .box05 {
-    display: block;
-  }   */
   .box01 {
     position: absolute;
     width: auto;
@@ -642,24 +627,6 @@ input[type="checkbox"] {
     font-size: 25px;
     padding-top: 5px;
   }
-/*   .nav-menu p {
-    display: none;
-  }
-  .box01:after {
-    content: none;
-  }
-  .box02:after {
-    content: none;
-  }
-  .box03:after {
-    content: none;
-  }
-  .box04:after {
-    content: none;
-  }
-  .box05:after {
-    content: none;
-  } */
 }
 
 @media (hover: hover) {
