@@ -483,7 +483,7 @@ input[type="checkbox"] {
     color: white;
     cursor: default;
   }
-  .nav-menu p:hover {
+/*   .nav-menu p:hover {
     font-weight: 600;
     color: white;
   } 
@@ -601,7 +601,7 @@ input[type="checkbox"] {
     left: 35px;
     border: 13px solid transparent;
     border-top: 13px solid #131212;
-  }
+  } */
 }
 
 @media screen and (max-width: 768px) {
