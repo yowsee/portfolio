@@ -734,6 +734,15 @@ input[type="checkbox"] {
     height: 26px;
     font-size: 12px;
   } 
+  .modal .save {
+    margin: 10px 20px 0px 20px;
+  }  
+  .modal .delete {
+    margin: 10px 20px 0px 20px;
+  }  
+  .modal .cancel {
+    margin: 10px 20px 10px 20px;
+  }  
   .nav-menu ul {
     height: 60px;
     align-items: center;
