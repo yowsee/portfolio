@@ -751,4 +751,26 @@ input[type="checkbox"] {
     font-size: 25px;
     padding-top: 5px;
   }
+    .nav-menu i {
+    font-size: 25px;
+    padding-top: 5px;
+  }
+  .nav-menu p {
+    display: none;
+  }
+  .box01:after {
+    content: none;
+  }
+  .box02:after {
+    content: none;
+  }
+  .box03:after {
+    content: none;
+  }
+  .box04:after {
+    content: none;
+  }
+  .box05:after {
+    content: none;
+  }
 }
