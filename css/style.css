@@ -116,11 +116,11 @@ a:hover {
   margin: 50px auto 10px;
   padding: 10px 0 10px 20px;
 }
-.content-item {
+/* .content-item {
   position: relative;
   top: -30px;
   display: block;
-}
+} */
 .content-items {
   position: relative;
   top: -50px;
