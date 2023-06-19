@@ -134,7 +134,7 @@ a:hover {
   transition: all .4s;
 }
 .modal {
-/*   max-height: calc(100vh-150px); */
+  max-height: calc(100vh-150px);
   /* max-width: 100%; */
   max-width: inherit;
   position: fixed;
@@ -638,10 +638,10 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 768px) {
-  .textarea {
+/*   .textarea {
     height: 400px;
     width: 340px;
-  }
+  } */
   .container {
     grid-template-rows: 120px auto 430px 50px;
   }
