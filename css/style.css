@@ -444,11 +444,11 @@ input[type="checkbox"] {
   .main {
     margin-left: 10px;
   }
-  .content-item {
+/*   .content-item {
     position: relative;
     top: -100px;
     display: block;
-  }
+  } */
   .content-items {
     position: relative;
     top: -130px;
