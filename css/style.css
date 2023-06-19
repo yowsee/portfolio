@@ -116,6 +116,11 @@ a:hover {
   margin: 50px auto 10px;
   padding: 10px 0 10px 20px;
 }
+.content-items {
+  position: relative;
+  top: -50px;
+  display: block;
+}
 .main-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -434,15 +439,20 @@ input[type="checkbox"] {
   .main {
     margin-left: 10px;
   }
+  .content-item {
+    position: relative;
+    top: -80px;
+    display: block;
+  }
+  .content-items {
+    position: relative;
+    top: -130px;
+    display: block;
+  }
   .main-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(235px, 2fr));
     gap: 10px;
-  }
-  .content-items {
-    position: relative;
-    top: -90px;
-    display: block;
   }
   .modal-contents {
     min-width: 300px;
@@ -615,6 +625,11 @@ input[type="checkbox"] {
   .check:checked + .label + .main-gallery {
     height: auto;
     display: grid;
+  }
+    .content-items {
+    position: relative;
+    top: -90px;
+    display: block;
   }
   .main-gallery{
     display: none;
