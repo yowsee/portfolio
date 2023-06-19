@@ -116,6 +116,11 @@ a:hover {
   margin: 50px auto 10px;
   padding: 10px 0 10px 20px;
 }
+.content-item {
+  position: relative;
+  top: -30px;
+  display: block;
+}
 .content-items {
   position: relative;
   top: -50px;
@@ -441,7 +446,7 @@ input[type="checkbox"] {
   }
   .content-item {
     position: relative;
-    top: -80px;
+    top: -100px;
     display: block;
   }
   .content-items {
@@ -625,6 +630,11 @@ input[type="checkbox"] {
   .check:checked + .label + .main-gallery {
     height: auto;
     display: grid;
+  }
+  .content-item {
+  position: relative;
+  top: -80px;
+  display: block;
   }
   .content-items {
     position: relative;
