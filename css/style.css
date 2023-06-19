@@ -441,7 +441,7 @@ input[type="checkbox"] {
   }
   .content-item {
     position: relative;
-    top: -90px;
+    top: -80px;
     display: block;
   }
   .content-items {
@@ -625,11 +625,6 @@ input[type="checkbox"] {
   .check:checked + .label + .main-gallery {
     height: auto;
     display: grid;
-  }
-  .content-item {
-    position: relative;
-    top: -60px;
-    display: block;
   }
   .content-items {
     position: relative;
