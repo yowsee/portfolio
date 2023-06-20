@@ -193,12 +193,21 @@ a:hover {
   padding-left: 2.5px;
   margin-left: -30px;
 }
-.content-item li p::before {
+.content-file li p::before {
   padding-left: 0;
   margin-left: -40px;
 }
-.space {
-  padding-top: 25px;
+.content-item-01 { 
+  position: relative;
+  top: -10px;
+}
+.content-item-02 {
+  position: relative;
+  top: -5px;
+}
+.content-items {
+  position: relative;
+  top: -50px;
 }
 .explanation-list {
   padding: 0;
@@ -474,18 +483,21 @@ input[type="checkbox"] {
     color: #131212;
     font-weight: 600;
   }
-  .top-space {
+  .content-item-01 {
+    position: relative;
+    top: -90px;
+  }
+  .content-item-02 {
     position: relative;
     top: -85px;
   }
-  .space {
+  .content-items {
     position: relative;
-    top: -85px;
+    top: -130px;
   }
   .explanation-list img {
     max-width: 80%;
   }
-
   .aside {
     grid-area: unset;
   }
