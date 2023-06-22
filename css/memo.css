@@ -135,7 +135,8 @@ a:hover {
 }
 .modal {
   max-height: calc(100vh-150px);
-  max-width: 100%;
+  max-width: inherit;
+  width: 60%;
   position: fixed;
   text-align: center;
   top: 50%;
@@ -180,9 +181,9 @@ a:hover {
   font-size: 25px;
   font-weight: 300;
   border: 1px solid #4b4b4b;
-  border-radius: 4px;
-  height: 400px;
-  width: 660px;
+  height: 298px;
+  width: 100%;
+  box-sizing: border-box;
   padding: 20px;
 }
 .mask {
