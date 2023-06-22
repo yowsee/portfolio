@@ -155,6 +155,18 @@ a:hover {
   visibility: visible;
   transform: translate(-50%, -50%) scale(1);
 }
+.modal h2 {
+  text-align: center;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: white;
+  background: rgb(160, 160, 160);
+  max-width: 100%;
+  padding: 20px;
+  margin: 0;
+}
 .modal button {
   width: 160px;
   height: 40px;
@@ -204,7 +216,7 @@ a:hover {
   visibility: visible;
 }
 .memo {
-  min-height: 600px;
+  min-height: 565px;
   background-color: rgb(210, 210, 210);
   border-radius: 4px;
   padding-top: 10px;
@@ -487,6 +499,9 @@ input[type="checkbox"] {
   .main-header {
     margin: 140px 0 0;
   }
+  .modal {
+    width: 80%;
+  }
   .modal button {
     width: 140px;
     height: 35px;
@@ -638,10 +653,6 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 768px) {
-  .textarea {
-    height: 400px;
-    width: 300px;
-  }
   .container {
     grid-template-rows: 120px auto 430px 50px;
   }
