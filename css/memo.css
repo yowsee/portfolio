@@ -178,6 +178,7 @@ a:hover {
   height: 298px;
   width: 100%;
   box-sizing: border-box;
+  border-radius: none;
   padding: 20px;
 }
 .modal button {
