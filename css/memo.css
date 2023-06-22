@@ -163,7 +163,7 @@ a:hover {
   letter-spacing: 2px;
   color: white;
   background: rgb(160, 160, 160);
-  border-radius: 4px;
+/*   border-radius: 4px; */
   max-width: 100%;
   padding: 20px;
   margin: 0;
