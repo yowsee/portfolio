@@ -139,10 +139,11 @@ a:hover {
   width: 60%;
   position: fixed;
   text-align: center;
-  top: 50%;
-  left: 50%;
+  overflow: hidden;
   background: rgb(160, 160, 160);
   border-radius: 4px;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%) scale(.95);
   z-index: 5;
   opacity: 0;
