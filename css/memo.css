@@ -134,7 +134,8 @@ a:hover {
   transition: all .4s;
 }
 .modal {
-  max-height: calc(100vh-150px);
+/*   max-height: calc(100vh-150px); */
+  height: 446px;
   max-width: inherit;
   width: 60%;
   position: fixed;
