@@ -132,9 +132,9 @@ a:hover {
 }
 .selectbox {
   justify-content: flex-end;
-  border: 2px solid #95959595;
+  border: 2px solid #4b4b4b;
   border-radius: 4px;
-  margin-bottom: 20px;
+  margin: 30px 0;
   display: none;
   transition: all .4s;
 }
@@ -169,7 +169,6 @@ a:hover {
 }
 .selectbox select:hover {
   background: #131212;
-/*   color: white; */
   font-weight: 600;
   transition: all .4s;
 }
@@ -190,7 +189,6 @@ a:hover {
 }
 .selectbox a:hover {
   background: #131212;
-/*   color: white; */
   font-weight: 600;
   transition: all .4s;
 }
@@ -214,7 +212,7 @@ input[type="checkbox"]:checked ~ .selectbox {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #131212;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -496,17 +494,21 @@ input[type="checkbox"] {
     text-align: center;
   }
   .selectbox h2 {
-    padding-left: 0;
+    padding: 8px 0 5px 0;
   }
   .selectbox select {
     display: inline-flex;
     height: 26px;
+    width: 24.4px;
     font-size: 13px;
+    margin: 0;
   }
   .selectbox a {
     display: inline-flex;
     height: 26px;
-    font-size: 13px;
+    width: 24.5px;
+    font-size: 11px;
+    margin: 3px 0;
   }
   input[type="checkbox"]:checked ~ .item {
     display: block;
@@ -515,12 +517,16 @@ input[type="checkbox"] {
     text-align: center;
   }
   .item h2 {
-    padding-left: 0;
+    color: #131212;
+    padding: 8px 0 5px 0;
   }
   .item a {
     display: inline-flex;
     height: 26px;
-    font-size: 13px;
+    width: 32.8px;
+    font-size: 11px;
+    background: #4b4b4b;
+    margin: 3px 0;
   }
   .line {
   text-decoration-style: double;
