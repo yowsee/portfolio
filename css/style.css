@@ -601,6 +601,9 @@ input[type="checkbox"] {
   .container {
     grid-template-rows: 120px auto 430px 50px;
   }
+  .main-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 2fr));
+  }
   .modal-contents img {
     min-width: 380px;
   }
