@@ -188,7 +188,6 @@ a:hover {
 .modal button {
   width: calc(100% - 20px);
   height: 40px;
-  margin: 20px;
   background: #4b4b4b;
   color: white;
   font-size: 16px;
