@@ -672,20 +672,23 @@ input[type="checkbox"] {
   .container {
     grid-template-rows: 120px auto 430px 50px;
   }
+  .selectbox h2 {
+    font-size: 13px;
+  }
   .selectbox select {
-    width: 80px;
-    height: 24px;
-    font-size: 12px;
+    height: 23px;
+    width: 23.7%;
   }
   .selectbox a {
-    width: 80px;
-    height: 24px;
-    font-size: 12px;
+    height: 23px;
+    width: 23.7%;
+  }
+  .item h2 {
+    font-size: 13px;
   }
   .item a {
-    width: 80px;
-    height: 24px;
-    font-size: 12px;
+    height: 23px;
+    width: 32.1%;
   }
   .nav-menu ul {
     height: 60px;
