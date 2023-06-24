@@ -499,14 +499,14 @@ input[type="checkbox"] {
   .selectbox select {
     display: inline-flex;
     height: 26px;
-    width: 24.4px;
+    width: 24.4%;
     font-size: 13px;
     margin: 0;
   }
   .selectbox a {
     display: inline-flex;
     height: 26px;
-    width: 24.5px;
+    width: 24.5%;
     font-size: 11px;
     margin: 3px 0;
   }
@@ -523,7 +523,7 @@ input[type="checkbox"] {
   .item a {
     display: inline-flex;
     height: 26px;
-    width: 32.8px;
+    width: 32.8%;
     font-size: 11px;
     background: #4b4b4b;
     margin: 3px 0;
