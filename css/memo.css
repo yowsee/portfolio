@@ -178,7 +178,7 @@ a:hover {
   border: 2px solid rgb(160, 160, 160);
   height: 298px;
   width: 100%;
-  overflow-y: scrool;
+  overflow-y: scroll;
   box-sizing: border-box;
   padding: 20px;
 }
