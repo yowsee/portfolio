@@ -504,6 +504,7 @@ input[type="checkbox"] {
   }
   .modal {
     width: 80%;
+    overflow: hidden;
   }
   .modal button {
     width: 140px;
