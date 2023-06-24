@@ -166,6 +166,7 @@ a:hover {
 }
 .modal-contents img {
   max-height: calc(100vh - 150px);
+  width: 100%;
   border-radius: 0px;
 }
 .modal-contents img:hover {
@@ -178,14 +179,15 @@ a:hover {
   font-size: ２４px;
   color: white;
   background: rgb(160, 160, 160);
-  padding: 20px;
-  margin: 0;
+/*   padding: 20px; */
+  margin: 30px;
 }
 .modal-contents a {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 200px;
+/*   width: 200px; */
   height: 40px;
   margin: 10px;
   background: #4b4b4b;
@@ -455,12 +457,7 @@ input[type="checkbox"] {
     grid-template-columns: repeat(auto-fit, minmax(235px, 2fr));
     gap: 10px;
   }
-  .modal-contents {
-    min-width: 300px;
-  }
-  .modal a {
-    width: 80px;
-    height: 30px;
+  .modal-contents a {
     font-size: 14px;
   }
   .nav-menu ul {
