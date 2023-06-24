@@ -148,6 +148,7 @@ a:hover {
   left: 50%;
   background: rgb(160, 160, 160);
   border-radius: 4px;
+  overflow: hidden;
   z-index: 5;
   opacity: 0;
   visibility: hidden;
@@ -165,22 +166,22 @@ a:hover {
 }
 .modal-contents img {
   max-height: calc(100vh - 150px);
+  border-radius: 0px;
 }
 .modal-contents img:hover {
   box-shadow: none;
   transform: none;
 }
 .modal-contents h2 {
-  text-align: center;
   justify-content: center;
   font-weight: normal;
   font-size: ２４px;
   color: white;
   background: rgb(160, 160, 160);
   padding: 20px;
-/*   margin: 0; */
+  margin: 0;
 }
-.modal a {
+.modal-contents a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -195,7 +196,7 @@ a:hover {
   border-radius: 4px;
   cursor: pointer;
 }
-.modal a:hover {
+.modal-contents a:hover {
   background: #131212;
   color: white;
   font-weight: 600;
