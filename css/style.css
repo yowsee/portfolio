@@ -165,7 +165,7 @@ a:hover {
   text-align: center;
 }
 .modal-contents img {
-  max-height: calc(100vh - 150px);
+  max-height: calc(100vh - 180px);
   width: 100%;
   border-radius: 0px;
 }
