@@ -601,6 +601,9 @@ input[type="checkbox"] {
   .container {
     grid-template-rows: 120px auto 430px 50px;
   }
+  .modal-contents img {
+    min-width: 380px;
+  }
   .label p {
     position: relative;
   }
