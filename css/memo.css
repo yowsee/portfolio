@@ -134,8 +134,10 @@ a:hover {
   transition: all .4s;
 }
 .modal {
-/*   max-height: calc(100vh-150px); */
-  height: 446px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   max-width: inherit;
   width: 60%;
   position: fixed;
@@ -184,7 +186,7 @@ a:hover {
   padding: 20px;
 }
 .modal button {
-  width: 160px;
+  width: calc(100% - 20px);
   height: 40px;
   margin: 20px;
   background: #4b4b4b;
@@ -201,6 +203,12 @@ a:hover {
 /*   color: white; */
   font-weight: 600;
   transition: all .4s;
+}
+.add_memo {
+  margin: 10px;
+}
+.cancel_memo {
+  margin: 0 10px 10px 10px;
 }
 .mask {
   position: fixed;
@@ -508,8 +516,6 @@ input[type="checkbox"] {
     overflow: hidden;
   }
   .modal button {
-    width: 140px;
-    height: 35px;
     font-size: 14px;
   }
   .memo ul {
@@ -660,11 +666,6 @@ input[type="checkbox"] {
 @media screen and (max-width: 768px) {
   .container {
     grid-template-rows: 120px auto 430px 50px;
-  }
-  .modal button {
-    width: 120px;
-    height: 26px;
-    font-size: 12px;
   }
   .nav-menu ul {
     height: 60px;
