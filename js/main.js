@@ -4,11 +4,46 @@
     document.getElementById('hamburger-menu').checked = false;
   });
 
+  const anker = document.querySelectorAll('.anker'); 
+  const checkPoint =  document.querySelectorAll('.check-point');
   const modalOpen = document.querySelectorAll('.modal-open');
   const modalClose = document.querySelectorAll('.close');
   const modalMask = document.querySelectorAll('.mask'); 
   const modal = document.querySelectorAll('.modal');
 
+  for (let g = 0; g < anker.length; g++){
+    let thisAnker = anker[g];
+    thisAnker.addEventListener('click', function(){
+      for (let x = 0; x < checkPoint.length; x++){
+        if (checkPoint[x].getAttribute('data-anker-point') == anker[g].getAttribute('data-anker-link')){
+          checkPoint[x].checked = true;
+        } else {
+          checkPoint[x].checked = false;
+        }
+      }
+    });
+  }
+
+  var url = location.href;  
+  var urlParam = location.search.substring(1);
+  if(urlParam){
+    var parameters = urlParam.split('&');
+    var paramArray = [];
+    for (let p = 0; p < parameters.length; p++){
+      var paramItem = parameters[p].split('=');
+      var paramName = decodeURIComponent(paramItem[0]);
+      var paramValue = decodeURIComponent(paramItem[1]);
+      paramArray[paramName] = paramValue;
+    }
+    for (let x = 0; x < checkPoint.length; x++){
+      if (checkPoint[x].getAttribute('data-anker-point') == paramArray.id){
+        checkPoint[x].checked = true;
+      } else {
+        checkPoint[x].checked = false;
+      }
+    }
+  }
+  
   for (let i = 0; i < modalOpen.length; i++){
     let thisModalOpen = modalOpen[i];
     thisModalOpen.addEventListener('click', function(){
