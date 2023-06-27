@@ -622,11 +622,11 @@ input[type="checkbox"] {
     transform: rotate(135deg);
     cursor: pointer;
   }
-  .check:checked + .label p::after {
+  .check-point:checked + .label p::after {
     transform: rotate(-45deg);
     transform-origin: 100% 100%;
   }
-  .check:checked + .label + .main-gallery {
+  .check-point:checked + .label + .main-gallery {
     height: auto;
     display: grid;
   }
