@@ -19,7 +19,7 @@
     for (let l = 0; l < selectbox.length; l++){
       if(selectbox[l].getAttribute('data-select') == paramArray.id){
         selectbox[l].style.display='flex';
-        if(window.matchMedia("screen and (max-width:1000px)").matches){
+        if(window.matchMedia("screen and (max-width:1024px)").matches){
           selectbox[l].style.display='block';
         }
       }
