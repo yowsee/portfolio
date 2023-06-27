@@ -674,6 +674,7 @@ input[type="checkbox"] {
   }
   .selectbox h2 {
     font-size: 13px;
+    font-weight: 600;
   }
   .selectbox select {
     height: 23px;
@@ -685,6 +686,7 @@ input[type="checkbox"] {
   }
   .item h2 {
     font-size: 13px;
+    font-weight: 600;
   }
   .item a {
     height: 23px;
