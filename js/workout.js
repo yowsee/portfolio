@@ -5,7 +5,9 @@
   });
 
   const selectbox = document.querySelectorAll('.selectbox');
-  var url = location.href;	
+  const checkPoint =  document.querySelectorAll('.check-point');
+  
+  var url = location.href;  
   var urlParam = location.search.substring(1);
   if(urlParam){
     var parameters = urlParam.split('&');
@@ -22,7 +24,22 @@
         if(window.matchMedia("screen and (max-width:1024px)").matches){
           selectbox[l].style.display='block';
         }
+        // for (let x = 0; x < checkPoint.length; x++){
+        //   if (checkPoint[x].name == location.hash.slice(1)){
+        //     checkPoint[x].checked = true;
+        //   } else {
+        //     checkPoint[x].checked = false;
+        //   }
+        // }
       }
+    }
+  }
+
+  for (let x = 0; x < checkPoint.length; x++){
+    if (checkPoint[x].name == location.hash.slice(1)){
+      checkPoint[x].checked = true;
+    } else {
+      checkPoint[x].checked = false;
     }
   }
 
