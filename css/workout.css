@@ -681,6 +681,7 @@ input[type="checkbox"] {
   }
   .label p {
     position: relative;
+    cursor: pointer;
   }
   .label p::after {
     content:"";
@@ -692,7 +693,6 @@ input[type="checkbox"] {
     top: calc(50% - 10px);
     right: 30px;
     transform: rotate(135deg);
-    cursor: pointer;
   }
   .check-point:checked + .label p::after {
     transform: rotate(-45deg);
