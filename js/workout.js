@@ -24,13 +24,7 @@
         if(window.matchMedia("screen and (max-width:1024px)").matches){
           selectbox[l].style.display='block';
         }
-        // for (let x = 0; x < checkPoint.length; x++){
-        //   if (checkPoint[x].name == location.hash.slice(1)){
-        //     checkPoint[x].checked = true;
-        //   } else {
-        //     checkPoint[x].checked = false;
-        //   }
-        // }
+        selectbox[l].parentElement.style.order = '-1';
       }
     }
   }
