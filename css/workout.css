@@ -137,11 +137,15 @@ a:hover {
 .label p span {
   font-size: 14px;
 }
+.main-contents {
+  display: flex;
+  flex-direction: colum;
+}
 .selectbox {
   justify-content: flex-end;
   border: 2px solid #4b4b4b; 
   border-radius: 4px;
-  margin: 30px 0;
+  margin: 20px 0 30px 0;
   display: none;
   transition: all .4s;
 }
@@ -704,7 +708,8 @@ input[type="checkbox"] {
   }
   .check-point:checked + .label + .main-contents {
     height: auto;
-    display: block;
+    display: flex;
+    flex-direction: colum;
   }
   .main-contents {
     display: none;
