@@ -139,7 +139,7 @@ a:hover {
 }
 .main-contents {
   display: flex;
-  flex-direction: colum;
+  flex-direction: column;
 }
 .selectbox {
   justify-content: flex-end;
@@ -709,7 +709,7 @@ input[type="checkbox"] {
   .check-point:checked + .label + .main-contents {
     height: auto;
     display: flex;
-    flex-direction: colum;
+    flex-direction: column;
   }
   .main-contents {
     display: none;
