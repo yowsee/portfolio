@@ -143,7 +143,7 @@ a:hover {
 }
 .selectbox {
   justify-content: flex-end;
-  border: 2px solid #4b4b4b; 
+  border: 2px solid #131212; 
   border-radius: 4px;
   margin: 20px 0 30px 0;
   display: none;
@@ -206,7 +206,7 @@ a:hover {
 .item {
   justify-content: flex-end;
   background-color: #95959595;
-  border: 2px solid #4b4b4b;
+  border: 2px solid #131212;
   border-radius: 4px;
   margin-bottom: 10px;
   display: none;
