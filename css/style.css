@@ -608,7 +608,12 @@ input[type="checkbox"] {
   .label p {
     position: relative;
     background: #4b4b4b;
+    font-weight: 400;
     cursor: pointer;
+  }
+  .label p:hover {
+    background: #131212;
+    font-weight: 600;
   }
   .label p::after {
     content:"";
@@ -620,6 +625,10 @@ input[type="checkbox"] {
     top: calc(50% - 10px);
     right: 30px;
     transform: rotate(135deg);
+  }
+  .label p:hover::after {
+    border-top: 4px solid white;
+    border-right: 4px solid white;
   }
   .check-point:checked + .label p {
     background: #131212;
