@@ -676,14 +676,14 @@ input[type="checkbox"] {
   }
   .label p:hover {
     background: #131212;
-/*     font-weight: 600; */
+    font-weight: 600;
   }
-/*   .label p span {
+  .label p span {
     font-weight: 500;
   }
   .label p span:hover {
     font-weight: 600;
-  } */
+  }
   .label p::after {
     content:"";
     width: 10px;
@@ -695,10 +695,10 @@ input[type="checkbox"] {
     right: 30px;
     transform: rotate(135deg);
   }
-/*   .label p:hover::after {
+  .label p:hover::after {
     border-top: 4px solid white;
     border-right: 4px solid white;
-  } */
+  }
   .check-point:checked + .label p {
     background: #131212;
   }
