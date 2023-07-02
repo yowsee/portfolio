@@ -475,11 +475,6 @@ input[type="checkbox"] {
     color: #131212;
     font-weight: 600;
   }
-  .content-items {
-    position: relative;
-    top: -83px;
-    display: block;
-  }
   .aside {
     grid-area: unset;
   }
@@ -489,18 +484,10 @@ input[type="checkbox"] {
   .main-header {
     margin: 140px 0 0;
   }
-  .content-item {
+  .content-item, .content-items {
     position: relative;
     top: -80px;
   }
-  .content-items {
-    position: relative;
-    top: -90px;
-  }
-  /* .main p {
-    justify-content: center;
-    padding-left: 0;
-  } */
   .selectbox {
     text-align: center;
   }
