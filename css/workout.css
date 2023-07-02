@@ -683,6 +683,9 @@ input[type="checkbox"] {
   .container {
     grid-template-rows: 120px auto 430px 50px;
   }
+  .label {
+    display: block;
+  }
   .label p {
     position: relative;
     background: #4b4b4b;
