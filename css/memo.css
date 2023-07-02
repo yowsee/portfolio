@@ -129,7 +129,6 @@ a:hover {
 }
 .create_memo:hover {
   background: #131212;
-/*   color: white; */
   font-weight: 600;
   transition: all .4s;
 }
@@ -199,7 +198,6 @@ a:hover {
 }
 .modal button:hover {
   background: #131212;
-/*   color: white; */
   font-weight: 600;
   transition: all .4s;
 }
