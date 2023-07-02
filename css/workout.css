@@ -114,14 +114,6 @@ a:hover {
   width: 100%;
   margin: 100px 0 0;
 }
-/* .content-item {
-  position: relative;
-  top: 5px;
-}
-.content-items {
-  position: relative;
-  top: -5px;
-} */
 .label p {
   /* display: flex; */
   color: white;
@@ -253,7 +245,6 @@ input[type="checkbox"]:checked ~ .selectbox {
 }
 .item a:hover {
   background: #131212;
-/*   color: white; */
   font-weight: 600;
   transition: all .4s;
 }
