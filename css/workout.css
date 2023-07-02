@@ -670,6 +670,10 @@ input[type="checkbox"] {
   .container {
     grid-template-rows: 120px auto 430px 50px;
   }
+  .content-items {
+    position: relative;
+    top: -90px;
+  }
   .label {
     display: block;
   }
