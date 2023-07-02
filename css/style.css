@@ -179,7 +179,6 @@ a:hover {
   font-size: ２４px;
   color: white;
   background: rgb(160, 160, 160);
-/*   padding: 20px; */
   margin: 30px;
 }
 .modal-contents a {
@@ -187,7 +186,6 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-/*   width: 200px; */
   height: 40px;
   margin: 10px;
   background: #4b4b4b;
