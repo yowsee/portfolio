@@ -636,6 +636,13 @@ input[type="checkbox"] {
   .container {
     grid-template-rows: 120px auto 430px 50px;
   }
+  .content-items {
+    position: relative;
+    top: -140px;
+  }
+  .main-gallery {
+    display: none;
+  }
   .check-point:checked + .label + .main-gallery {
     height: auto;
     display: grid;
@@ -644,11 +651,6 @@ input[type="checkbox"] {
   }
   .modal-contents img {
     min-width: 380px;
-  }
-  .content-items {
-    position: relative;
-    top: -140px;
-    display: block;
   }
   .nav-menu ul {
     height: 60px;
