@@ -638,7 +638,7 @@ input[type="checkbox"] {
   }
   .content-items {
     position: relative;
-    top: -120px;
+    top: -100px;
   }
   .main-gallery {
     display: none;
