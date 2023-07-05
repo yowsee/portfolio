@@ -636,7 +636,7 @@ input[type="checkbox"] {
   .container {
     grid-template-rows: 120px auto 430px 50px;
   }
-  .main-gallery {
+  .check-point:checked + .label + .main-gallery {
     height: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 2fr));
