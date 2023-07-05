@@ -571,7 +571,7 @@ input[type="checkbox"] {
     margin: 3px 0;
   }
   .line {
-  text-decoration-style: double;
+    text-decoration-style: double;
   }
   .nav-menu ul {
     position: fixed;
