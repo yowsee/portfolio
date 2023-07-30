@@ -225,7 +225,7 @@ a:hover {
   visibility: visible;
 }
 .memo {
-  height: 900px;
+  min-height: 700px;
   background-color: #00395647;
   border-radius: 4px;
   padding-top: 10px;
