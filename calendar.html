@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="css/calender.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="sub-image">
+        </div>
+        <div class="main-image">
+        </div>
+        <div class="top-contents">
+          <h1 class="sub-title"><span>P</span>ORTFOLIO</h1>
+          <h1 class="main-title">PORTFOLIO</h1>
+          <h1 class="sub-title"><span>P</span>ORTFOLIO</h1>
+        </div>
+      </header>
+      <aside class="aside">
+        <nav class="nav-menu">
+          <ul>
+            <li>
+              <a href="index.html#chest"><i class="fas fa-home fa-2x"></i></a>
+              <div class="box01">
+                <a href="index.html"><p>HOME</p></a>
+              </div>
+            </li>
+            <li>
+              <a href="workout.html#main"><i class="fas fa-dumbbell fa-2x"></i></a>
+              <div class="box02">
+                <a href="workout.html#main"><p>WORKOUT</p></a>
+              </div>
+            </li>
+            <li>
+              <a href="memo.html#main"><i class="far fa-clipboard fa-2x"></i></a>
+              <div class="box03">
+                <a href="memo.html#main"><p>MEMO</p></a>
+              </div>
+            </li>
+            <li>
+              <a href="calendar.html#main"><i class="far fa-calendar-alt fa-2x"></i></a>
+              <div class="box04">
+                <a href="#main"><p>CALENDAR</p></a>
+              </div>
+            </li>
+            <li>
+              <a href="profile.html#main"><i class="far fa-user fa-2x"></i></a>
+              <div class="box05">
+                <a href="profile.html#main"><p>PROFILE</p></a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <input type="checkbox" id="hamburger-menu" class="hamburger-menu"/>
+        <label for="hamburger-menu" class="menu-btn"><span></span></label>
+        <nav class="menu-content">
+          <ul  class="menu-list">
+            <li>    
+              <a href="index.html?id=anker01&#chest" class="anker" data-anker-link="anker01"><p>CHEST</p></a>
+            </li>
+            <li>
+              <a href="index.html?id=anker02&#back" class="anker" data-anker-link="anker02"><p>BACK</p></a>
+            </li>
+            <li>
+              <a href="index.html?id=anker03&#leg" class="anker" data-anker-link="anker03"><p>LEG</p></a>
+            </li>
+            <li>
+              <a href="index.html?id=anker04&#abs" class="anker" data-anker-link="anker04"><p>ABS</p></a>
+            </li>
+            <li>
+              <a href="index.html?id=anker05&#shoulder" class="anker" data-anker-link="anker05"><p>SHOULDER</p></a>
+            </li>
+            <li>
+              <a href="index.html?id=anker06&#arm" class="anker" data-anker-link="anker06"><p>ARM</p></a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main id="main" class="main">
+
+        <!-- calendar -->
+
+        <div class="wrapper">
+          <h1 id="main-header" class="main-header"></h1>
+          <div id="next-prev-button" class="next-prev-button">
+            <button id="prev" class="prev" onclick="prev">＜</button>
+            <button id="today" class="today" onclick="today">Today</button>
+            <button id="next" class="next" onclick="next">＞</button>
+          </div>
+          <div id="calendar" class="calendar"></div>
+        </div>
+        <div id="modal" class="modal">
+          <h2>Workout Mission</h2>
+          <form id="select-options" class="select-options">
+            <label>
+              <input type="radio" id="radio" name="radio" class="radio" value="CHEST" data-radio="chest" />CHEST
+            </label>
+            <label>
+              <input type="radio" id="radio" name="radio" class="radio" value="BACK" data-radio="back" />BACK
+            </label>
+            <label>
+              <input type="radio" id="radio" name="radio" class="radio" value="LEG" data-radio="leg" />LEG
+            </label>
+            <label>
+              <input type="radio" id="radio" name="radio" class="radio"  value="ABS" data-radio="abs" />ABS
+            </label>
+            <label>
+              <input type="radio" id="radio" name="radio" class="radio"  value="SHOULDER" data-radio="shoulder" />SHOULDER
+            </label>
+            <label>
+              <input type="radio" id="radio" name="radio" class="radio"  value="ARM" data-radio="arm" />ARM
+            </label>
+          </form>
+          <button id="save" class="save">
+            <!-- <i class="fas fa-plus-circle"></i>  SAVE -->
+            SAVE
+          </button>
+          <button id="delete" class="delete">
+            <!-- <i class="fas fa-trash-alt"></i>  DELETE -->
+            DELETE
+          </button>
+          <button id="cancel" class="cancel">                          
+            <!-- <i class="fas fa-ban"></i>  CANCEL -->
+            CANCEL
+          </button>
+        </div>
+        <div id="mask" class="mask"></div>
+    
+        <!-- calendar -->
+
+      </main>
+      <footer class="footer">
+        <ul class="upper-footer">
+          <li><a href="https://jp.iherb.com" target="_blank"><img src="https://github.com/yowsee/portfolio/blob/main/images/iherb.png?raw=true" alt="iHerb"></a></li>
+          <li><a href="https://www.myprotein.jp" target="_blank"><img src="https://github.com/yowsee/portfolio/blob/main/images/myprotein.png?raw=true" alt="MYPROTEIN"></a></li>
+        </ul>
+        <ul class="lower-footer">
+          <li><a href="https://www.instagram.com" target="_blank" class="fab fa-instagram fa-3x"></a></li>
+          <li><a href="https://www.twitter.com" target="_blank" class="fab fa-twitter fa-3x"></a></li>
+          <li><a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-f fa-3x"></a></li>
+          <li><a href="https://line.me/ja/" target="_blank" class="fab fa-line fa-3x"></a></li>
+          <li><a href="https://www.youtube.com" target="_blank" class="fab fa-youtube fa-3x"></a></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="js/calender.js" defer></script>
+  </body>
+</html>
