@@ -705,7 +705,7 @@ input[type="checkbox"] {
   }
   .item p {
 /*     right: 2%; */
-/*     bottom: −1%; */
+    bottom: −1%;
 /*     text-align: end; */
     font-size: 9px;
 /*     line-height: 2em; */
