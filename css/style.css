@@ -704,7 +704,7 @@ input[type="checkbox"] {
     padding-top: 5px;
   }
   .item p {
-/*     right: 2%; */
+    right: 2%;
     bottom: −1%;
 /*     text-align: end; */
     font-size: 9px;
