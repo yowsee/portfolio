@@ -220,6 +220,9 @@ input[type="checkbox"]:checked ~ .selectbox {
   padding-left: 20px;
   margin: 0 auto 0 0;
 }
+.item h2:first-child {
+  margin-right: 0;
+}
 .line {
   text-decoration-line: line-through;
   text-decoration-thickness: 1px;
@@ -534,26 +537,6 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
   }
-/*   .selectbox {
-    text-align: center;
-  }
-  .selectbox h2 {
-    padding: 8px 0 5px 0;
-  }
-  .selectbox select {
-    display: inline-flex;
-    height: 26px;
-    width: 24.4%;
-    font-size: 13px;
-    margin: 0;
-  }
-  .selectbox a {
-    display: inline-flex;
-    height: 26px;
-    width: 24.5%;
-    font-size: 11px;
-    margin: 3px 0;
-  } */
   .selectbox h2 {
     font-size: 16px;
   }
@@ -567,22 +550,8 @@ input[type="checkbox"] {
     font-size: 14px;
   }
   .item a {
-    font-size: 14px;
+    font-size: 12px;
   }
-/*   .item {
-    text-align: center;
-  }
-  .item h2 {
-    padding: 8px 0 5px 0;
-  }
-  .item a {
-    display: inline-flex;
-    height: 26px;
-    width: 32.5%;
-    font-size: 11px;
-    background: #4b4b4b;
-    margin: 3px 0;
-  } */
   .line {
     text-decoration-style: double;
   }
@@ -764,56 +733,40 @@ input[type="checkbox"] {
   }
   .selectbox h2 {
     padding: 8px 0 5px 0;
+    font-size: 13px;
   }
   .selectbox select {
     display: inline-flex;
-    height: 26px;
-    width: 24.4%;
+    height: 24px;
+    width: 23.8%;
     font-size: 13px;
     margin: 0;
   }
   .selectbox a {
     display: inline-flex;
-    height: 26px;
-    width: 24.5%;
+    height: 24px;
+    width: 24%;
     font-size: 11px;
     margin: 3px 0;
   }
   input[type="checkbox"]:checked ~ .item {
-    display: flex;
+    display: block;
   }
   .item {
     text-align: center;
   }
   .item h2 {
     padding: 8px 0 5px 0;
+    font-size: 13px;
   }
   .item a {
     display: inline-flex;
-    height: 26px;
-    width: 32.5%;
+    height: 23px;
+    width: 31.6%;
     font-size: 11px;
     background: #4b4b4b;
     margin: 3px 0;
   }
-/*   .selectbox h2 {
-    font-size: 13px;
-  }
-  .selectbox select {
-    height: 24px;
-    width: 23.8%;
-  }
-  .selectbox a {
-    height: 24px;
-    width: 24%;
-  }
-  .item h2 {
-    font-size: 13px;
-  }
-  .item a {
-    height: 23px;
-    width: 31.6%;
-  } */
   .nav-menu ul {
     height: 60px;
     align-items: center;
