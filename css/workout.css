@@ -209,6 +209,9 @@ input[type="checkbox"]:checked ~ .selectbox {
   position: absolute;
   left: -800px;
 }
+.item h2:first-child {
+  margin-right: 0;
+}
 .todo {
   display: flex;
   align-items: center;
@@ -219,9 +222,6 @@ input[type="checkbox"]:checked ~ .selectbox {
   letter-spacing: 2px;
   padding-left: 20px;
   margin: 0 auto 0 0;
-}
-.item h2:first-child {
-  margin-right: 0;
 }
 .line {
   text-decoration-line: line-through;
