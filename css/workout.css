@@ -534,7 +534,7 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
   }
-  .selectbox {
+/*   .selectbox {
     text-align: center;
   }
   .selectbox h2 {
@@ -553,11 +553,23 @@ input[type="checkbox"] {
     width: 24.5%;
     font-size: 11px;
     margin: 3px 0;
+  } */
+  .selectbox h2 {
+    font-size: 16px;
+  }
+  .selectbox a {
+    font-size: 12px;
   }
   input[type="checkbox"]:checked ~ .item {
-    display: block;
+    display: flex;
   }
-  .item {
+  .todo {
+    font-size: 14px;
+  }
+  .item a {
+    font-size: 12px;
+  }
+/*   .item {
     text-align: center;
   }
   .item h2 {
@@ -570,7 +582,7 @@ input[type="checkbox"] {
     font-size: 11px;
     background: #4b4b4b;
     margin: 3px 0;
-  }
+  } */
   .line {
     text-decoration-style: double;
   }
@@ -747,7 +759,44 @@ input[type="checkbox"] {
   .check-point:checked + .label + .main-gallery {
     grid-template-columns: repeat(auto-fit, minmax(180px, 2fr));
   }
+  .selectbox {
+    text-align: center;
+  }
   .selectbox h2 {
+    padding: 8px 0 5px 0;
+  }
+  .selectbox select {
+    display: inline-flex;
+    height: 26px;
+    width: 24.4%;
+    font-size: 13px;
+    margin: 0;
+  }
+  .selectbox a {
+    display: inline-flex;
+    height: 26px;
+    width: 24.5%;
+    font-size: 11px;
+    margin: 3px 0;
+  }
+  input[type="checkbox"]:checked ~ .item {
+    display: flex;
+  }
+  .item {
+    text-align: center;
+  }
+  .item h2 {
+    padding: 8px 0 5px 0;
+  }
+  .item a {
+    display: inline-flex;
+    height: 26px;
+    width: 32.5%;
+    font-size: 11px;
+    background: #4b4b4b;
+    margin: 3px 0;
+  }
+/*   .selectbox h2 {
     font-size: 13px;
   }
   .selectbox select {
@@ -764,7 +813,7 @@ input[type="checkbox"] {
   .item a {
     height: 23px;
     width: 31.6%;
-  }
+  } */
   .nav-menu ul {
     height: 60px;
     align-items: center;
