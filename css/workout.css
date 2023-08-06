@@ -557,18 +557,18 @@ input[type="checkbox"] {
   .selectbox h2 {
     font-size: 16px;
   }
-  .selectbox a {
+/*   .selectbox a {
     font-size: 12px;
-  }
+  } */
   input[type="checkbox"]:checked ~ .item {
     display: flex;
   }
   .todo {
     font-size: 16px;
   }
-  .item a {
+/*   .item a {
     font-size: 14px;
-  }
+  } */
 /*   .item {
     text-align: center;
   }
