@@ -552,9 +552,9 @@ input[type="checkbox"] {
   .item a {
     font-size: 12px;
   } */
-  .line {
+/*   .line {
     text-decoration-style: double;
-  }
+  } */
   .nav-menu ul {
     position: fixed;
     bottom: 0;
