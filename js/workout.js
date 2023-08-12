@@ -45,7 +45,7 @@
   const cancel = document.querySelectorAll('.cancel');
   const done = document.querySelectorAll('.done');
   const reset = document.querySelectorAll('.reset');
-  const todo = document.querySelectorAll('.todo');
+  const todoLine = document.querySelectorAll('.todo-line');
   const delet = document.querySelectorAll('.delete');
   const check = document.querySelectorAll('.check');
   let todoItems = [];
@@ -83,9 +83,9 @@
     }
     for (const doneLine of doneLines){
       if(doneLine.classList[1] = 'line'){
-        for (let h = 0; h < todo.length; h++){
-          if(doneLine.id == todo[h].id){
-            todo[h].classList.add('line');
+        for (let h = 0; h < todoLine.length; h++){
+          if(doneLine.id == todoLine[h].id){
+            todoLine[h].classList.add('line');
           }
         }
       }
@@ -142,10 +142,10 @@
   for (let d = 0; d < done.length; d++){
     let thisDone = done[d];
     thisDone.addEventListener('click', function(){
-      for (let h = 0; h < todo.length; h++){
-        if(todo[h].getAttribute('data-todo') == done[d].getAttribute('data-done')){
-          todo[h].classList.add('line');
-          let doneLine = ({id:todo[h].id, classList:todo[h].classList});
+      for (let h = 0; h < todoLine.length; h++){
+        if(todoLine[h].getAttribute('data-todo') == done[d].getAttribute('data-done')){
+          todoLine[h].classList.add('line');
+          let doneLine = ({id:todoLine[h].id, classList:todoLine[h].classList});
           doneLines.push(doneLine);
           localStorage.setItem("doneStorage", JSON.stringify(doneLines));
         }
@@ -155,10 +155,10 @@
   for (let f = 0; f < reset.length; f++){
     let thisReset = reset[f];
     thisReset.addEventListener('click', function(){
-      for (let h = 0; h < todo.length; h++){
-        if(todo[h].getAttribute('data-todo') == reset[f].getAttribute('data-reset')){
-          todo[h].classList.remove('line');
-          let deleteLine = ({id:todo[h].id, classList:todo[h].classList});
+      for (let h = 0; h < todoLine.length; h++){
+        if(todoLine[h].getAttribute('data-todo') == reset[f].getAttribute('data-reset')){
+          todoLine[h].classList.remove('line');
+          let deleteLine = ({id:todoLine[h].id, classList:todoLine[h].classList});
           doneLines = doneLines.filter(doneLine => doneLine.id !== deleteLine.id);
         }
         localStorage.setItem("doneStorage", JSON.stringify(doneLines));
@@ -176,10 +176,10 @@
         }
         localStorage.setItem("todoStorage", JSON.stringify(todoItems));
       }
-      for (let h = 0; h < todo.length; h++){
-        if(todo[h].getAttribute('data-todo') == delet[e].getAttribute('data-delete')){
-          todo[h].classList.remove('line');
-          let deleteLine = ({id:todo[h].id, classList:todo[h].classList});
+      for (let h = 0; h < todoLine.length; h++){
+        if(todoLine[h].getAttribute('data-todo') == delet[e].getAttribute('data-delete')){
+          todoLine[h].classList.remove('line');
+          let deleteLine = ({id:todoLine[h].id, classList:todoLine[h].classList});
           doneLines = doneLines.filter(doneLine => doneLine.id !== deleteLine.id);
         }
         localStorage.setItem("doneStorage", JSON.stringify(doneLines));
