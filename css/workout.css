@@ -537,10 +537,9 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
   }
-  .selectbox select {
-    display: flex;
+/*   .selectbox select {
     text-align: center; 
-  }
+  } */
   .nav-menu ul {
     position: fixed;
     bottom: 0;
