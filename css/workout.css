@@ -714,49 +714,26 @@ input[type="checkbox"] {
   .check-point:checked + .label p {
     background: linear-gradient(180deg, #003956 0%, #003956 80%, rgb(174, 0, 0) 80%, rgb(174, 0, 0) 84%, #131212 84%, #131212 100%);
   }
-/*   .check-point:checked + .label + .main-gallery {
-    grid-template-columns: repeat(auto-fit, minmax(180px, 2fr));
-  } */
-/*   .selectbox {
-    text-align: center;
-  } */
   .selectbox h2 {
-    font-size: 13px;
+    font-size: 14px;
   }
   .selectbox select {
-/*     display: inline-flex;
-    height: 24px; */
     width: 100px;
     font-size: 11px;
-/*     margin: 0; */
   }
   .selectbox a {
-/*     display: inline-flex;
-    height: 24px; */
     width: 100px;
     font-size: 10px;
-/*     margin: 3px 0; */
   }
-/*   input[type="checkbox"]:checked ~ .item {
-    display: block;
-  } */
-/*   .item {
-    text-align: center;
-  } */
   .todo {
-/*     padding: 8px 0 5px 0; */
-    font-size: 13px;
+    font-size: 14px;
   }
   .todo:last-child {
     font-size: 12px;
   }
   .item a {
-/*     display: inline-flex;
-    height: 23px; */
     width: 100px;
     font-size: 10px;
-    background: #4b4b4b;
-/*     margin: 3px 0; */
   }
   .nav-menu ul {
     height: 60px;
