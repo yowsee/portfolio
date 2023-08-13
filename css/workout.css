@@ -538,10 +538,7 @@ input[type="checkbox"] {
     flex-direction: column;
   }
   .selectbox select {
-    display: -webkit-block;
-/*     align-items: center;
-    justify-content: center;
-    align-content: center; */
+    display: -webkit-flex;
     text-align: -webkit-center;
   }
   .nav-menu ul {
