@@ -538,8 +538,7 @@ input[type="checkbox"] {
     flex-direction: column;
   }
   .selectbox select {
-    display: -webkit-box;
-    -webkit-box-pack: center;
+    text-align: -webkit-center;
   }
   .nav-menu ul {
     position: fixed;
@@ -729,7 +728,7 @@ input[type="checkbox"] {
   }
   .todo:last-child {
     font-size: 12px;
-    padding-left: 35px;
+    padding-left: 25px;
   }
   .item a {
     width: 100px;
