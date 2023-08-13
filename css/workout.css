@@ -712,6 +712,7 @@ input[type="checkbox"] {
   }
   .selectbox h2 {
     font-size: 16px;
+    padding-left: 15px;
   }
   .selectbox select {
     width: 100px;
@@ -723,9 +724,11 @@ input[type="checkbox"] {
   }
   .todo {
     font-size: 16px;
+    padding-left: 15px;
   }
   .todo:last-child {
     font-size: 12px;
+    padding-left: 35px;
   }
   .item a {
     width: 100px;
