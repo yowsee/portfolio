@@ -711,7 +711,7 @@ input[type="checkbox"] {
     background: linear-gradient(180deg, #003956 0%, #003956 80%, rgb(174, 0, 0) 80%, rgb(174, 0, 0) 84%, #131212 84%, #131212 100%);
   }
   .selectbox h2 {
-    font-size: 14px;
+    font-size: 16px;
   }
   .selectbox select {
     width: 100px;
@@ -722,7 +722,7 @@ input[type="checkbox"] {
     font-size: 10px;
   }
   .todo {
-    font-size: 14px;
+    font-size: 16px;
   }
   .todo:last-child {
     font-size: 12px;
