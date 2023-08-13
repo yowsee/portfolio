@@ -144,7 +144,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   letter-spacing: 2px;
   padding-left: 20px;
@@ -181,6 +181,7 @@ a:hover {
   width: 300px;
   height: 20px;
   background: #4b4b4b;
+  border: 1px solid #4b4b4b00;
   color: white;
   font-size: 10px;
   font-weight: 400;
@@ -191,13 +192,14 @@ a:hover {
 }
 .selectbox a:hover {
   background: #131212;
+  border: 1px solid #4b4b4b00;
   font-weight: 600;
   transition: all .4s;
 }
 .item {
   justify-content: flex-end;
   background-color: #003956b5;
-  border: 1px solid #131212;
+  border: 1px solid #00395600;
   border-radius: 4px;
   margin-top: 10px;
   display: none;
@@ -216,7 +218,7 @@ input[type="checkbox"]:checked ~ .selectbox {
 }  
 .todo {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   letter-spacing: 2px;
   padding-left: 20px;
@@ -238,6 +240,7 @@ input[type="checkbox"]:checked ~ .selectbox {
   width: 300px;
   height: 20px;
   background: #4b4b4b;
+  border: 1px solid #4b4b4b00;
   color: white;
   font-size: 10px;
   font-weight: 400;
@@ -248,6 +251,7 @@ input[type="checkbox"]:checked ~ .selectbox {
 }
 .item a:hover {
   background: #131212;
+  border: 1px solid #4b4b4b00;
   font-weight: 600;
   transition: all .4s;
 }
