@@ -153,6 +153,7 @@ a:hover {
 input, select {
   -webkit-appearance: none;
   appearance: none;
+  text-align: center;
 } 
 .selectbox select {
   display: flex;
@@ -171,9 +172,6 @@ input, select {
   margin: 5px 5px 5px 0;
 /*   border: none;
   outline: none; */
-}
-。selectbox option {
-  text-align: center;
 }
 .selectbox select:hover {
   background: #131212;
