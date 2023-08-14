@@ -168,12 +168,6 @@ a:hover {
   border: none;
   outline: none;
 }
-.reps {
-  padding-left: 42%;
-}
-.set {
-  padding-left: 43%;
-}
 .selectbox select:hover {
   background: #131212;
   font-weight: 600;
@@ -719,12 +713,6 @@ input[type="checkbox"] {
   .selectbox select {
     width: 100px;
     font-size: 12px;
-  }
-  .reps {
-    padding-left: 29%;
-  }
-  .set {
-    padding-left: 33%;
   }
   .selectbox a {
     width: 100px;
