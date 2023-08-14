@@ -119,7 +119,7 @@ a:hover {
   font-size: 30px;
   font-weight: 500;
   letter-spacing: 2px;
-  background: linear-gradient(180deg, #003956 0%, #003956 80%, rgb(174, 0, 0) 80%, rgb(174, 0, 0) 84%, #131212  84%, #131212  100%);
+  background: linear-gradient(180deg, #003956 0%, #003956 80%, #003956b5 80%, #003956b5 84%, #131212  84%, #131212  100%);
   border-radius: 4px;
   text-align: left;
   margin: 50px auto 0px;
@@ -188,7 +188,6 @@ a:hover {
 }
 .selectbox a:hover {
   background: #131212;
-  border: 1px solid #4b4b4b00;
   font-weight: 600;
   transition: all .4s;
 }
@@ -489,7 +488,7 @@ input[type="checkbox"] {
   }
   .label p {
     position: relative;
-    background: linear-gradient(180deg, #003956 0%, #003956 80%, rgb(174, 0, 0) 80%, rgb(174, 0, 0) 84%, #4b4b4b 84%, #4b4b4b 100%);
+    background: linear-gradient(180deg, #003956 0%, #003956 80%, #003956b5 80%, #003956b5 84%, #4b4b4b 84%, #4b4b4b 100%);
     font-weight: 300;
     cursor: pointer;
     margin: 20px auto 0px;
@@ -498,7 +497,7 @@ input[type="checkbox"] {
     display: none;
   }
   .label p:hover {
-    background: linear-gradient(180deg, #003956 0%, #003956 80%, rgb(174, 0, 0) 80%, rgb(174, 0, 0) 84%, #131212 84%, #131212 100%);
+    background: linear-gradient(180deg, #003956 0%, #003956 80%, #003956b5 80%, #003956b5 84%, #131212 84%, #131212 100%);
     font-weight: 500;
   }
   .label p span {
@@ -523,7 +522,7 @@ input[type="checkbox"] {
     border-right: 3px solid white;
   }
   .check-point:checked + .label p {
-    background: linear-gradient(180deg, #003956 0%, #003956 80%, rgb(174, 0, 0) 80%, rgb(174, 0, 0) 84%, #131212 84%, #131212 100%);
+    background: linear-gradient(180deg, #003956 0%, #003956 80%, #003956b5 80%, #003956b5 84%, #131212 84%, #131212 100%);
   }
   .check-point:checked + .label p::after {
     transform: rotate(-45deg);
@@ -689,11 +688,11 @@ input[type="checkbox"] {
   }
   .label p {
     font-size: 20px;
-    background: linear-gradient(180deg, #003956 0%, #003956 80%, rgb(174, 0, 0) 80%, rgb(174, 0, 0) 84%, #4b4b4b 84%, #4b4b4b 100%);
+    background: linear-gradient(180deg, #003956 0%, #003956 80%, #003956b5 80%, #003956b5 84%, #4b4b4b 84%, #4b4b4b 100%);
     padding: 14px 0 14px 20px;
   }
   .label p:hover {
-    background: linear-gradient(180deg, #003956 0%, #003956 80%, rgb(174, 0, 0) 80%, rgb(174, 0, 0) 84%, #131212 84%, #131212 100%);
+    background: linear-gradient(180deg, #003956 0%, #003956 80%, #003956b5 80%, #003956b5 84%, #131212 84%, #131212 100%);
     font-weight: 500;
   }
   .label p::after {
@@ -702,7 +701,7 @@ input[type="checkbox"] {
     top: calc(50% - 1px);
   }
   .check-point:checked + .label p {
-    background: linear-gradient(180deg, #003956 0%, #003956 80%, rgb(174, 0, 0) 80%, rgb(174, 0, 0) 84%, #131212 84%, #131212 100%);
+    background: linear-gradient(180deg, #003956 0%, #003956 80%, #003956b5 80%, #003956b5 84%, #131212 84%, #131212 100%);
   }
   .selectbox h2 {
     font-size: 16px;
