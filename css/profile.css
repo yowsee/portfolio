@@ -122,7 +122,6 @@ a:hover {
   margin: 20px;
 }
 .profile .eng {
-  background: linear-gradient(90deg,  #003956 0%, #003956 3.1%, rgb(174, 0, 0) 3.1%, rgb(174, 0, 0) 3.4%, #131212 3.4%, #131212 4.5%, white 4.5%, white 100%);
   color: #131212;
   font-size: 16px;
   font-weight: 400;
@@ -131,19 +130,13 @@ a:hover {
   text-indent: 1rem;
   margin: 0 20px;
   padding: 20px 30% 20px 80px;
-  border-top: #003956 3px solid;
-  border-bottom: #003956 3px solid;
 }
 .profile .jpn {
-  background: linear-gradient(90deg, white 0%, white 95.5%, #131212 95.5%, #131212 96.5%, rgb(174, 0, 0) 96.5%, rgb(174, 0, 0) 96.8%, #003956 96.8%, #003956 100%);
   font-size: 13px;
   line-height: 2;
   text-indent: 1rem;
   margin: 0 20px 0 20px;
   padding: 20px 80px 20px 30%;
-}
-.profile .jpn-last {
-  border-bottom: #003956 3px solid;
 }
 .site-info {
   margin-top: 50px;
