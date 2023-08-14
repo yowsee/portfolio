@@ -154,14 +154,11 @@ a:hover {
   display: flex;
 /*   align-items: center; */
 /*   justify-content: center; */
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
   width: 300px;
   height: 22px;
   background: #4b4b4b;
   color: white;
-  text-align: -webkit-center;
+/*   text-align: -webkit-center; */
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -170,6 +167,12 @@ a:hover {
   margin: 5px 5px 5px 0;
   border: none;
   outline: none;
+}
+.reps {
+  padding-left: 42%;
+}
+.reps {
+  padding-left: 43%;
 }
 .selectbox select:hover {
   background: #131212;
@@ -716,6 +719,12 @@ input[type="checkbox"] {
   .selectbox select {
     width: 100px;
     font-size: 12px;
+  }
+  .reps {
+    padding-left: 29%;
+  }
+  .reps {
+    padding-left: 33%;
   }
   .selectbox a {
     width: 100px;
