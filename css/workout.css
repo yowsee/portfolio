@@ -156,13 +156,13 @@ input, select {
 } 
 .selectbox select {
   display: flex;
-  align-items: center;
-  justify-content: center;
+/*   align-items: center;
+  justify-content: center; */
   width: 300px;
   height: 22px;
   background: #4b4b4b;
   color: white;
-  text-align: center;
+/*   text-align: center; */
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -171,6 +171,9 @@ input, select {
   margin: 5px 5px 5px 0;
 /*   border: none;
   outline: none; */
+}
+。selectbox option {
+  text-align: center;
 }
 .selectbox select:hover {
   background: #131212;
