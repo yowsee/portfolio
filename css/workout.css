@@ -154,8 +154,6 @@ a:hover {
   -webkit-appearance: none;
   appearance: none;
   display: flex;
-/*   align-items: center;
-  justify-content: center; */
   width: 300px;
   height: 22px;
   background: #4b4b4b;
@@ -167,8 +165,6 @@ a:hover {
   border-radius: 4px;
   cursor: pointer;
   margin: 5px 5px 5px 0;
-/*   border: none;
-  outline: none; */
 }
 .selectbox select:hover {
   background: #131212;
