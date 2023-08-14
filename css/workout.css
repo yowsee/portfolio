@@ -160,7 +160,7 @@ a:hover {
   height: 22px;
   background: #4b4b4b;
   color: white;
-  text-align: -webkit-center;
+  text-align-last: center;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 2px;
