@@ -153,7 +153,7 @@ a:hover {
 input, select {
   -webkit-appearance: none;
   appearance: none;
-  text-align: center;
+  text-align: -webkit-center;
 } 
 .selectbox select {
   display: flex;
