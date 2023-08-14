@@ -123,13 +123,15 @@ a:hover {
   border: none;
   border-radius: 4px;
   position: relative;
-  background: linear-gradient(180deg, #003956 0%, #003956 80%, rgb(174, 0, 0) 80%, rgb(174, 0, 0) 84%, #4b4b4b 84%, #4b4b4b 100%);
+  background: linear-gradient(180deg, #4b4b4b 0%, #4b4b4b 80%, white 80%, white 84%, #4b4b4b 84%, #4b4b4b 100%);
+/*   background: linear-gradient(180deg, #003956 0%, #003956 80%, rgb(174, 0, 0) 80%, rgb(174, 0, 0) 84%, #4b4b4b 84%, #4b4b4b 100%); */
   cursor: pointer;
   margin: 50px auto 10px;
   padding: 20px 0 13px 0;
 }
 .create_memo:hover {
-  background: linear-gradient(180deg, #003956 0%, #003956 80%, rgb(174, 0, 0) 80%, rgb(174, 0, 0) 84%, #131212 84%, #131212 100%);
+  background: linear-gradient(180deg, #131212 0%, #131212 80%, white 80%, white 84%, #131212 84%, #131212 100%);
+/*   background: linear-gradient(180deg, #003956 0%, #003956 80%, rgb(174, 0, 0) 80%, rgb(174, 0, 0) 84%, #131212 84%, #131212 100%); */
   font-weight: 500;
   transition: all .4s;
 }
