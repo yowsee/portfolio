@@ -536,9 +536,6 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
   }
-  .selectbox select {
-    text-indent: 50%;
-  }
   .nav-menu ul {
     position: fixed;
     bottom: 0;
