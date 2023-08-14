@@ -150,12 +150,9 @@ a:hover {
   padding-left: 20px;
   margin: 0 auto 0 0;
 }
-input, select {
+.selectbox select {
   -webkit-appearance: none;
   appearance: none;
-  text-align: -webkit-center;
-} 
-.selectbox select {
   display: flex;
 /*   align-items: center;
   justify-content: center; */
@@ -163,7 +160,7 @@ input, select {
   height: 22px;
   background: #4b4b4b;
   color: white;
-/*   text-align: center; */
+  text-align: -webkit-center;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 2px;
