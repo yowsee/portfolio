@@ -125,7 +125,7 @@ a:hover {
   display: flex;
 }
 .profile-items div {
-  min-width: 80%;
+  width: 80%;
   background: white;
   margin: 60px 20px;
   padding: 2rem 3rem;
