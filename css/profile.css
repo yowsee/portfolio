@@ -128,10 +128,10 @@ a:hover {
   padding: 2rem 3rem;
 }
 .profile div:first-child {
-  margin-left: 100px;
+  margin-left: 60px;
 }
 .profile div:last-child {
-  margin-right: 100px;
+  margin-right: 60px;
 }
 .profile h4 {
   color: #131212;
