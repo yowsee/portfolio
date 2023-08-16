@@ -121,20 +121,19 @@ a:hover {
   overflow-x: auto;
 }
 .profile-items {
-  width: 350%;
   display: flex;
+  width: 350%;
 }
 .profile-items div {
   width: 80%;
   background: white;
-  margin: 60px 20px;
-  padding: 2rem 3rem;
+  margin: 20px;
 }
 .profile-items div:first-child {
-  margin-left: 60px;
+  margin-left: 80px;
 }
 .profile-items div:last-child {
-  margin-right: 60px;
+  margin-right: 80px;
 }
 /* .profile h4 {
   color: #131212;
@@ -144,23 +143,25 @@ a:hover {
   margin: 20px;
 } */
 .profile-items .eng {
+  width: 80%;
   color: #131212;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 2px;
   line-height: 2;
   text-indent: 1rem;
-  margin: 0;
-  padding-bottom: 2rem;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 .profile-items .jpn {
+  width: 80%;
   color: #131212;
   font-size: 13px;
   line-height: 2;
   text-indent: 1rem;
   border-top: 1px solid #003956b5;
-  margin: 0px;
-  padding-top: 2rem;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 .site-info {
   margin-top: 50px;
@@ -284,6 +285,7 @@ a:hover {
   text-indent: 0;
 }
 .explanation-list img {
+  max-width: 93%;
   margin: 10px 0 40px 40px;
   border: 1px solid rgb(210, 210, 210);
 }
