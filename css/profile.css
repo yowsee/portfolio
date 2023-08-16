@@ -256,14 +256,12 @@ a:hover {
   font-size: 16px;
   letter-spacing: 2px;
   line-height: 2;
-  text-indent: 1rem;
 }
 .explanation .jpn {
   margin: 16px 16px 16px 40px;
   font-size: 12px;
   opacity: 0.7;
   line-height: 2;
-  text-indent: 1rem;
 }
 .explanation-list li {
   list-style: none;
@@ -279,12 +277,6 @@ a:hover {
   border-color: rgb(210, 210, 210);
   text-align: left;
   padding: 10px 0 10px 20px;
-}
-.explanation-list .eng {
-  text-indent: 0;
-}
-.explanation-list .jpn {
-  text-indent: 0;
 }
 .explanation-list img {
   max-width: 93%;
