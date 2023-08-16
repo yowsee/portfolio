@@ -167,7 +167,7 @@ a:hover {
   margin-top: 50px;
 }
 .content {
-  background: #00395647;
+  background: #1f3045;
   border-radius: 4px;
 }
 .content ol {
@@ -175,8 +175,8 @@ a:hover {
   list-style: none;
 }
 .content h4 {
-  color: #131212;
-  font-size: 18px;
+  color: white;
+  font-size: 23px;
   font-weight: 500;
   letter-spacing: 2px;
   margin: 20px 60px 40px 60px;
