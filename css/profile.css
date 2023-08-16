@@ -686,6 +686,12 @@ input[type="checkbox"] {
     font-size: 20px;
     text-indent: 1rem;
   }
+  .profile-items div:first-child {
+    margin-left: 60px;
+  }
+  .profile-items div:last-child {
+    margin-right: 60px;
+  }
   .profile .eng {
     font-size: 14px;
   }
