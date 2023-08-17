@@ -250,7 +250,7 @@ input[type="checkbox"]:checked ~ .selectbox {
 .footer {
   grid-area: footer;
   background: rgb(230, 230, 230);
-  margin-top: 50px;
+/*   margin-top: 50px; */
 }
 .footer ul {
   display: flex;
