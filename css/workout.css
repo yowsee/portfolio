@@ -249,7 +249,8 @@ input[type="checkbox"]:checked ~ .selectbox {
 }
 .footer {
   grid-area: footer;
-  background: rgb(230, 230, 230);
+  background: #e72106;
+/*   background: rgb(230, 230, 230); */
   margin-top: 50px;
 }
 .footer ul {
