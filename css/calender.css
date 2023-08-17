@@ -335,7 +335,8 @@ td.today {
 }
 .footer {
   grid-area: footer;
-  background: rgb(230, 230, 230);
+  background: #102b37;
+  /*background: rgb(230, 230, 230);*/
 /*   margin-top: 50px; */
 }
 .footer ul {
