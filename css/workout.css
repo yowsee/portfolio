@@ -326,7 +326,6 @@ input[type="checkbox"] {
 @media screen and (max-width: 1024px) {
   .container {
     display: grid;
-    background-color: rgba(145, 145, 145, 0.1);
     gap: 10px;
     grid-template-rows: 120px auto 430px 76px;
     grid-template-columns: auto;
