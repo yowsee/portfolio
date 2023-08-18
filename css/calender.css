@@ -335,7 +335,7 @@ td.today {
 }
 .footer {
   grid-area: footer;
-  background: #102b37;
+  background: #011823;
   /*background: rgb(230, 230, 230);*/
 /*   margin-top: 50px; */
 }
@@ -366,6 +366,12 @@ td.today {
 .lower-footer {
   margin: 70px auto 100px;
 }
+.lower-footer a {
+  color: white;
+}
+.lower-footer a:hover {
+  color: #959595;
+} 
 .nav-menu {
   position: fixed;
   top: 0;
