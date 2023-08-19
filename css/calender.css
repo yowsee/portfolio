@@ -107,7 +107,7 @@ a:hover {
 }
 .wrapper{
   max-width: 96%;
-  margin: 40px auto;
+  margin: 40px auto 0;
   color: #131212;
 }
 .main-header {
@@ -336,6 +336,7 @@ td.today {
 .footer {
   grid-area: footer;
   background: #011823;
+  margin-top: 50px;
 }
 .footer ul {
   display: flex;
