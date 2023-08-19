@@ -107,9 +107,13 @@ a:hover {
 }
 .content-item {
   position: relative;
+  top: -15px;
+}
+.content-items01 {
+  position: relative;
   top: -14px;
 }
-.content-items {
+.content-items02 {
   position: relative;
   top: -15px;
 }
