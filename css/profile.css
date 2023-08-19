@@ -503,13 +503,9 @@ input[type="checkbox"] {
     color: #131212;
     font-weight: 600;
   }
-  .content-item-01 {
+  .content-item {
     position: relative;
-    top: -90px;
-  }
-  .content-item-02 {
-    position: relative;
-    top: -85px;
+    top: -70px;
   }
   .content-items {
     position: relative;
