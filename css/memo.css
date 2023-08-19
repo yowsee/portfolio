@@ -285,8 +285,6 @@ a:hover {
 .footer {
   grid-area: footer;
   background: #011823;
-  /*background: rgb(230, 230, 230);*/
-/*   margin-top: 50px; */
 }
 .footer ul {
   display: flex;
@@ -300,12 +298,12 @@ a:hover {
 }
 .footer img {
   display: block;
-  opacity: 0.9;
+  opacity: 1;
   padding: 0;
   margin: 0;
 }
 .footer img:hover {
-  opacity: 1;
+  opacity: 0.9;
   transition: all .4s;
 }
 .upper-footer {
