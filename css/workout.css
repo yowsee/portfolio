@@ -687,14 +687,6 @@ input[type="checkbox"] {
   .container {
     grid-template-rows: 120px auto 430px 50px;
   }
-  .content-item {
-    position: relative;
-    top: -130px;
-  }
-  .content-items {
-    position: relative;
-    top: -110px;
-  }
   .menu-list p {
     font-size: 20px;
     text-indent: 1rem;
