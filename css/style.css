@@ -76,7 +76,6 @@ a:hover {
 .menu-content {
   top: 40px;
   position: sticky;
-  margin-bottom: 50px;
 }
 .menu-list {
   display: grid;
@@ -108,11 +107,11 @@ a:hover {
 }
 .content-item {
   position: relative;
-  top: -15px;
+  top: -14px;
 }
 .content-items {
   position: relative;
-  top: -44px;
+  top: -15px;
 }
 .label p {
   color: white;
@@ -129,7 +128,7 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 10px;
-  margin: 10px auto 50px;
+  margin: 10px auto 0;
 }
 .item {
   position: relative;
@@ -237,6 +236,7 @@ a:hover {
 .footer {
   grid-area: footer;
   background: #011823;
+  margin-top: 50px;
 }
 .footer ul {
   display: flex;
