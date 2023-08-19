@@ -470,9 +470,13 @@ input[type="checkbox"] {
     position: relative;
     top: -110px;
   }
-  .content-items {
+  .content-items01 {
     position: relative;
-    top: -110px;
+    top: -120px;
+  }
+  .content-items02 {
+    position: relative;
+    top: -120px;
   }
   .label p {
     position: relative;
