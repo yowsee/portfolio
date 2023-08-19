@@ -674,14 +674,6 @@ input[type="checkbox"] {
     font-size: 20px;
     text-indent: 1rem;
   }
-  .content-item {
-    position: relative;
-    top: -110px;
-  }
-  .content-items {
-    position: relative;
-    top: -120px;
-  }
   .label p {
     font-size: 20px;
     background: linear-gradient(180deg, #003956 0%, #003956 80%, rgb(174, 0, 0) 80%, rgb(174, 0, 0) 84%, #4b4b4b 84%, #4b4b4b 100%);
