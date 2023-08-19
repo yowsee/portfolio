@@ -225,11 +225,7 @@ a:hover {
 }
 .content-item-01 {
   position: relative;
-  top: -10px;
-}
-.content-item-02 {
-  position: relative;
-  top: -5px;
+  top: 10px;
 }
 .content-items {
   position: relative;
