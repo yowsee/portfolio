@@ -740,6 +740,12 @@ input[type="checkbox"] {
     font-size: 25px;
     padding-top: 5px;
   }
+  .upper-footer img {
+    width: 35px;
+  }
+  .lower-footer a {
+    font-size: 25px;
+  }
 }
 
 @media (hover: hover) {
