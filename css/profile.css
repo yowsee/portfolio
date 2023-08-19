@@ -237,6 +237,7 @@ a:hover {
 }
 .explanation-list {
   padding: 0;
+  margin-bottom: 0;
 }
 .explanation h2 {
   display: flex;
