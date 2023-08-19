@@ -114,6 +114,14 @@ a:hover {
   width: 100%;
   margin: 60px 0 0 0;
 }
+.content-item {
+  position: relative;
+  top: 5px;
+}
+.content-items {
+  position: relative;
+  top: 5px;
+}
 .label p {
   color: white;
   font-size: 30px;
