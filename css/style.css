@@ -76,6 +76,7 @@ a:hover {
 .menu-content {
   top: 40px;
   position: sticky;
+  margin-bottom: 50px;
 }
 .menu-list {
   display: grid;
