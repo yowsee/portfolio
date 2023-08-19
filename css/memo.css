@@ -517,9 +517,6 @@ input[type="checkbox"] {
   .modal button {
     font-size: 14px;
   }
-  .memo {
-    min-height: 500px;
-  }
   .memo ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(235px, 2fr));
