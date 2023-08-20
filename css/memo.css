@@ -674,7 +674,7 @@ input[type="checkbox"] {
     text-indent: 1rem;
   }
   .memo {
-    min-height: 300px;
+    min-height: 240px;
   }
   .nav-menu ul {
     height: 60px;
