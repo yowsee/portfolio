@@ -676,6 +676,10 @@ input[type="checkbox"] {
   .memo {
     min-height: 240px;
   }
+  .memo h2 {
+    font-size: 18px;
+    margin: 10px 18px 18px 18px;
+  }
   .nav-menu ul {
     height: 60px;
     align-items: center;
