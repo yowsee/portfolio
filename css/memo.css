@@ -518,7 +518,7 @@ input[type="checkbox"] {
     font-size: 14px;
   }
   .memo {
-    min-height: 440px;
+    min-height: 400px;
   }
   .memo ul {
     display: grid;
