@@ -124,7 +124,7 @@ a:hover {
 }
 .profile-items div {
   width: 80%;
-  background: white;
+  background: rgb(200, 200, 200);
   margin: 20px 10px;
 }
 .profile-items div:first-child {
