@@ -181,6 +181,9 @@ td.today {
 .mission:hover {
   font-weight: 600;
 }
+.mission a {
+  color: white;
+}
 .next-prev-button {
   position: relative;
 }
