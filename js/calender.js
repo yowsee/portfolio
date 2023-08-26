@@ -44,17 +44,17 @@
           const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
           if(checkboxes.length !== 0){
             const missionFile = checkMissionOpen[q].parentNode;
-            missionFile.style.background = 'rgb(200, 200, 200)';
+            missionFile.style.background = 'rgb(187, 188, 198)';
             missionFile.addEventListener('mouseover', function(){
-              missionFile.style.background = 'rgb(160, 160, 160)';
+              missionFile.style.background = 'rgb(160, 164, 195)';
             });
             missionFile.addEventListener('mouseleave', function(){
-              missionFile.style.background = 'rgb(200, 200, 200)';
+              missionFile.style.background = 'rgb(187, 188, 198)';
             });
             if(missionFile.classList.contains('today')){
               missionFile.style.background = '#D65E72';
               missionFile.addEventListener('mouseover', function(){
-                missionFile.style.background = 'rgb(160, 160, 160)';
+                missionFile.style.background = 'rgb(160, 164, 195)';
               });
               missionFile.addEventListener('mouseleave', function(){
                 missionFile.style.background = '#D65E72';
@@ -103,17 +103,17 @@
           const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
           if(checkboxes.length !== 0){
             const missionFile = checkMissionOpen[q].parentNode;
-            missionFile.style.background = 'rgb(200, 200, 200)';
+            missionFile.style.background = 'rgb(187, 188, 198)';
             missionFile.addEventListener('mouseover', function(){
-              missionFile.style.background = 'rgb(160, 160, 160)';
+              missionFile.style.background = 'rgb(160, 164, 195)';
             });
             missionFile.addEventListener('mouseleave', function(){
-              missionFile.style.background = 'rgb(200, 200, 200)';
+              missionFile.style.background = 'rgb(187, 188, 198)';
             });
             if(missionFile.classList.contains('today')){
               missionFile.style.background = '#D65E72';
               missionFile.addEventListener('mouseover', function(){
-                missionFile.style.background = 'rgb(160, 160, 160)';
+                missionFile.style.background = 'rgb(160, 164, 195)';
               });
               missionFile.addEventListener('mouseleave', function(){
                 missionFile.style.background = '#D65E72';
@@ -161,12 +161,12 @@
           const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
           if(checkboxes.length !== 0){
             const missionFile = checkMissionOpen[q].parentNode;
-            missionFile.style.background = 'rgb(200, 200, 200)';
+            missionFile.style.background = 'rgb(187, 188, 198)';
             missionFile.addEventListener('mouseover', function(){
-              missionFile.style.background = 'rgb(160, 160, 160)';
+              missionFile.style.background = 'rgb(160, 164, 195)';
             });
             missionFile.addEventListener('mouseleave', function(){
-              missionFile.style.background = 'rgb(200, 200, 200)';
+              missionFile.style.background = 'rgb(187, 188, 198)';
             });
             if(missionFile.classList.contains('today')){
               missionFile.style.background = '#D65E72';
@@ -220,17 +220,17 @@
           const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
           if(checkboxes.length !== 0){
             const missionFile = checkMissionOpen[q].parentNode;
-            missionFile.style.background = 'rgb(200, 200, 200)';
+            missionFile.style.background = 'rgb(187, 188, 198)';
             missionFile.addEventListener('mouseover', function(){
-              missionFile.style.background = 'rgb(160, 160, 160)';
+              missionFile.style.background = 'rgb(160, 164, 195)';
             });
             missionFile.addEventListener('mouseleave', function(){
-              missionFile.style.background = 'rgb(200, 200, 200)';
+              missionFile.style.background = 'rgb(187, 188, 198)';
             });
             if(missionFile.classList.contains('today')){
               missionFile.style.background = '#D65E72';
               missionFile.addEventListener('mouseover', function(){
-                missionFile.style.background = 'rgb(160, 160, 160)';
+                missionFile.style.background = 'rgb(160, 164, 195)';
               });
               missionFile.addEventListener('mouseleave', function(){
                 missionFile.style.background = '#D65E72';
@@ -350,37 +350,22 @@
                   const checkboxes = event.target.querySelectorAll('input[type="checkbox"]:checked');
                   if(checkboxes.length !== 0){
                     const missionFile = check[o].parentNode;
-                    missionFile.style.background = 'rgb(200, 200, 200)';
+                    missionFile.style.background = 'rgb(187, 188, 198)';
                     missionFile.addEventListener('mouseover', function(){
-                      missionFile.style.background = 'rgb(160, 160, 160)';
+                      missionFile.style.background = 'rgb(160, 164, 195)';
                     });
                     missionFile.addEventListener('mouseleave', function(){
-                      missionFile.style.background = 'rgb(200, 200, 200)';
+                      missionFile.style.background = 'rgb(187, 188, 198)';
                     });  
                     if(missionFile.classList.contains('today')){
                       missionFile.style.background = '#D65E72';
                       missionFile.addEventListener('mouseover', function(){
-                        missionFile.style.background = 'rgb(160, 160, 160)';
+                        missionFile.style.background = 'rgb(160, 164, 195)';
                       });
                       missionFile.addEventListener('mouseleave', function(){
                         missionFile.style.background = '#D65E72';
                       });
                     }
-
-                   
-                    // const missionElement = check[o].nextElementSibling;
-                    // console.log(missionElement);
-
-                    // console.log(workoutItem[u].parentNode);
-                    // workoutItem[u].addEventListener('mouseover', function(){
-                    //   if(workoutItem[u].parentNode.style.background = 'rgb(160, 160, 160)'){
-                    //     workoutItem[u].parentNode.style.background = 'rgb(200, 200, 200)';
-                    //   }
-                    // }); 
-
-                
-
-
                   }
                   let checkItem = ({id: check[o].id, checked: check[o].checked});
                   checkItems.push(checkItem);
