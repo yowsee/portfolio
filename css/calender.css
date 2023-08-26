@@ -174,15 +174,16 @@ td.today {
   display: none;
   cursor: default;
   width: fit-content;
-  font-size: 12px;
-  font-weight: 400;
   margin: 8px 0 0 auto;
-}
-.mission:hover {
-  font-weight: 600;
 }
 .mission a {
   color: white;
+  font-size: 12px;
+  font-weight: 400;
+}
+.mission a:hover {
+  color: #959595;
+  font-weight: 600;
 }
 .next-prev-button {
   position: relative;
