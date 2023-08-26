@@ -44,17 +44,17 @@
           const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
           if(checkboxes.length !== 0){
             const missionFile = checkMissionOpen[q].parentNode;
-            missionFile.style.background = 'rgb(131, 131, 228)';
+            missionFile.style.background = '#87ceeb';
             missionFile.addEventListener('mouseover', function(){
-              missionFile.style.background = 'rgb(98, 98, 172)';
+              missionFile.style.background = '#00ace6';
             });
             missionFile.addEventListener('mouseleave', function(){
-              missionFile.style.background = 'rgb(131, 131, 228)';
+              missionFile.style.background = '#87ceeb';
             });
             if(missionFile.classList.contains('today')){
               missionFile.style.background = '#D65E72';
               missionFile.addEventListener('mouseover', function(){
-                missionFile.style.background = 'rgb(98, 98, 172)';
+                missionFile.style.background = '#00ace6';
               });
               missionFile.addEventListener('mouseleave', function(){
                 missionFile.style.background = '#D65E72';
@@ -103,17 +103,17 @@
           const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
           if(checkboxes.length !== 0){
             const missionFile = checkMissionOpen[q].parentNode;
-            missionFile.style.background = 'rgb(131, 131, 228)';
+            missionFile.style.background = '#87ceeb';
             missionFile.addEventListener('mouseover', function(){
-              missionFile.style.background = 'rgb(98, 98, 172)';
+              missionFile.style.background = '#00ace6';
             });
             missionFile.addEventListener('mouseleave', function(){
-              missionFile.style.background = 'rgb(131, 131, 228)';
+              missionFile.style.background = '#87ceeb';
             });
             if(missionFile.classList.contains('today')){
               missionFile.style.background = '#D65E72';
               missionFile.addEventListener('mouseover', function(){
-                missionFile.style.background = 'rgb(98, 98, 172)';
+                missionFile.style.background = '#00ace6';
               });
               missionFile.addEventListener('mouseleave', function(){
                 missionFile.style.background = '#D65E72';
@@ -161,12 +161,12 @@
           const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
           if(checkboxes.length !== 0){
             const missionFile = checkMissionOpen[q].parentNode;
-            missionFile.style.background = 'rgb(131, 131, 228)';
+            missionFile.style.background = '#87ceeb';
             missionFile.addEventListener('mouseover', function(){
-              missionFile.style.background = 'rgb(98, 98, 172)';
+              missionFile.style.background = '#00ace6';
             });
             missionFile.addEventListener('mouseleave', function(){
-              missionFile.style.background = 'rgb(131, 131, 228)';
+              missionFile.style.background = '#87ceeb';
             });
             if(missionFile.classList.contains('today')){
               missionFile.style.background = '#D65E72';
@@ -220,17 +220,17 @@
           const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
           if(checkboxes.length !== 0){
             const missionFile = checkMissionOpen[q].parentNode;
-            missionFile.style.background = 'rgb(131, 131, 228)';
+            missionFile.style.background = '#87ceeb';
             missionFile.addEventListener('mouseover', function(){
-              missionFile.style.background = 'rgb(98, 98, 172)';
+              missionFile.style.background = '#00ace6';
             });
             missionFile.addEventListener('mouseleave', function(){
-              missionFile.style.background = 'rgb(131, 131, 228)';
+              missionFile.style.background = '#87ceeb';
             });
             if(missionFile.classList.contains('today')){
               missionFile.style.background = '#D65E72';
               missionFile.addEventListener('mouseover', function(){
-                missionFile.style.background = 'rgb(98, 98, 172)';
+                missionFile.style.background = '#00ace6';
               });
               missionFile.addEventListener('mouseleave', function(){
                 missionFile.style.background = '#D65E72';
@@ -350,17 +350,17 @@
                   const checkboxes = event.target.querySelectorAll('input[type="checkbox"]:checked');
                   if(checkboxes.length !== 0){
                     const missionFile = check[o].parentNode;
-                    missionFile.style.background = 'rgb(131, 131, 228)';
+                    missionFile.style.background = '#87ceeb';
                     missionFile.addEventListener('mouseover', function(){
-                      missionFile.style.background = 'rgb(98, 98, 172)';
+                      missionFile.style.background = '#00ace6';
                     });
                     missionFile.addEventListener('mouseleave', function(){
-                      missionFile.style.background = 'rgb(131, 131, 228)';
+                      missionFile.style.background = '#87ceeb';
                     });  
                     if(missionFile.classList.contains('today')){
                       missionFile.style.background = '#D65E72';
                       missionFile.addEventListener('mouseover', function(){
-                        missionFile.style.background = 'rgb(98, 98, 172)';
+                        missionFile.style.background = '#00ace6';
                       });
                       missionFile.addEventListener('mouseleave', function(){
                         missionFile.style.background = '#D65E72';
