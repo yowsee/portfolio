@@ -168,7 +168,7 @@ td.today {
 }
 .missionOpen:hover {
   cursor: pointer;
-  background: rgb(98, 98, 172);
+  background: #00ace6;
 }
 .mission {
   display: none;
