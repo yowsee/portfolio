@@ -46,7 +46,7 @@
             const missionFile = checkMissionOpen[q].parentNode;
             missionFile.style.background = 'rgb(131, 131, 228)';
             missionFile.addEventListener('mouseover', function(){
-              missionFile.style.background = 'rgb(98, 98, 172)';
+              missionFile.style.background = 'rgb(87, 87, 220)';
             });
             missionFile.addEventListener('mouseleave', function(){
               missionFile.style.background = 'rgb(131, 131, 228)';
@@ -54,7 +54,7 @@
             if(missionFile.classList.contains('today')){
               missionFile.style.background = '#D65E72';
               missionFile.addEventListener('mouseover', function(){
-                missionFile.style.background = 'rgb(98, 98, 172)';
+                missionFile.style.background = 'rgb(87, 87, 220)';
               });
               missionFile.addEventListener('mouseleave', function(){
                 missionFile.style.background = '#D65E72';
@@ -105,7 +105,7 @@
             const missionFile = checkMissionOpen[q].parentNode;
             missionFile.style.background = 'rgb(131, 131, 228)';
             missionFile.addEventListener('mouseover', function(){
-              missionFile.style.background = 'rgb(98, 98, 172)';
+              missionFile.style.background = 'rgb(87, 87, 220)';
             });
             missionFile.addEventListener('mouseleave', function(){
               missionFile.style.background = 'rgb(131, 131, 228)';
@@ -113,7 +113,7 @@
             if(missionFile.classList.contains('today')){
               missionFile.style.background = '#D65E72';
               missionFile.addEventListener('mouseover', function(){
-                missionFile.style.background = 'rgb(98, 98, 172)';
+                missionFile.style.background = 'rgb(87, 87, 220)';
               });
               missionFile.addEventListener('mouseleave', function(){
                 missionFile.style.background = '#D65E72';
@@ -163,7 +163,7 @@
             const missionFile = checkMissionOpen[q].parentNode;
             missionFile.style.background = 'rgb(131, 131, 228)';
             missionFile.addEventListener('mouseover', function(){
-              missionFile.style.background = 'rgb(98, 98, 172)';
+              missionFile.style.background = 'rgb(87, 87, 220)';
             });
             missionFile.addEventListener('mouseleave', function(){
               missionFile.style.background = 'rgb(131, 131, 228)';
@@ -222,7 +222,7 @@
             const missionFile = checkMissionOpen[q].parentNode;
             missionFile.style.background = 'rgb(131, 131, 228)';
             missionFile.addEventListener('mouseover', function(){
-              missionFile.style.background = 'rgb(98, 98, 172)';
+              missionFile.style.background = 'rgb(87, 87, 220)';
             });
             missionFile.addEventListener('mouseleave', function(){
               missionFile.style.background = 'rgb(131, 131, 228)';
@@ -230,7 +230,7 @@
             if(missionFile.classList.contains('today')){
               missionFile.style.background = '#D65E72';
               missionFile.addEventListener('mouseover', function(){
-                missionFile.style.background = 'rgb(98, 98, 172)';
+                missionFile.style.background = 'rgb(87, 87, 220)';
               });
               missionFile.addEventListener('mouseleave', function(){
                 missionFile.style.background = '#D65E72';
@@ -352,7 +352,7 @@
                     const missionFile = check[o].parentNode;
                     missionFile.style.background = 'rgb(131, 131, 228)';
                     missionFile.addEventListener('mouseover', function(){
-                      missionFile.style.background = 'rgb(98, 98, 172)';
+                      missionFile.style.background = 'rgb(87, 87, 220)';
                     });
                     missionFile.addEventListener('mouseleave', function(){
                       missionFile.style.background = 'rgb(131, 131, 228)';
@@ -360,7 +360,7 @@
                     if(missionFile.classList.contains('today')){
                       missionFile.style.background = '#D65E72';
                       missionFile.addEventListener('mouseover', function(){
-                        missionFile.style.background = 'rgb(98, 98, 172)';
+                        missionFile.style.background = 'rgb(87, 87, 220)';
                       });
                       missionFile.addEventListener('mouseleave', function(){
                         missionFile.style.background = '#D65E72';
