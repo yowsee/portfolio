@@ -240,9 +240,9 @@ td.today {
   position: fixed;
   text-align: center;
   overflow: hidden;
-  background: rgb(0, 0, 100);
+  background: rgb(160, 160, 160);
   border-radius: 4px;
-  border: 2px solid rgb(0, 0, 100);
+  border: 2px solid rgb(160, 160, 160);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(.95);
