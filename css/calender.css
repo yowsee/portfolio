@@ -182,7 +182,7 @@ td.today {
   font-weight: 400;
 }
 .mission a:hover {
-  color: #959595;
+/*   color: #959595; */
   font-weight: 600;
 }
 .next-prev-button {
