@@ -162,9 +162,9 @@ a:hover {
   position: fixed;
   top: 50%;
   left: 50%;
-  background: rgb(160, 160, 160);
+  background: rgb(246, 49, 5);
   border-radius: 4px;
-  border: 2px solid rgb(160, 160, 160);
+  border: 2px solid rgb(246, 49, 5);
   overflow: hidden;
   z-index: 5;
   opacity: 0;
@@ -196,7 +196,7 @@ a:hover {
   font-size: 24px;
   letter-spacing: 2px;
   color: white;
-  background: rgb(160, 160, 160);
+/*   background: rgb(160, 160, 160); */
   margin: 30px;
 }
 .modal-contents a {
