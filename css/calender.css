@@ -182,7 +182,7 @@ td.today {
   font-weight: 400;
 }
 .mission a:hover {
-/*   color: #959595; */
+  color: rgb(0, 0, 90);
   font-weight: 700;
 }
 .next-prev-button {
@@ -190,9 +190,9 @@ td.today {
 }
 .next-prev-button button{
   cursor: pointer;
-  background: #4b4b4b;
+  background: rgb(0, 0, 130);
   color: white;
-  border: 1px solid #4b4b4b;
+  border: 1px solid rgb(0, 0, 130);
   border-radius: 4px;
   font-size: 15px;
   font-weight: 400;
@@ -209,8 +209,8 @@ td.today {
   float: right;
 } 
 .next-prev-button button:hover{
-  background-color: #131212;
-  border-color: #131212;
+  background-color: rgb(0, 0, 90);
+  border-color: rgb(0, 0, 90);
   font-weight: 600;
 }
 .next-prev-button button.today {
