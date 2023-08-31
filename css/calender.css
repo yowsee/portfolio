@@ -226,8 +226,8 @@ td.today {
   height: 42px;
 }
 .next-prev-button button.today:hover {
-  background-color: #131212;
-  border-color: #131212;
+  background-color: rgb(0, 0, 90);
+  border-color: rgb(0, 0, 90);
   font-weight: 600;
 }
 .modal {
