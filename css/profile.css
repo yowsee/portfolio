@@ -683,18 +683,18 @@ input[type="checkbox"] {
     margin-right: 60px;
   }
   .profile .eng {
-    font-size: 14px;
+    font-size: 13px;
   }
   .profile .jpn {
     font-size: 11px;
   }
   .content h4 {
-    font-size: 20px;
+    font-size: 17px;
     margin: 20px 20px 30px 20px;
     padding-top: 30px;
   }
   .content-list {
-    font-size: 14px;
+    font-size: 13px;
     margin: 0 20px;
   }
   .content-list .eng {
@@ -702,6 +702,18 @@ input[type="checkbox"] {
   }
   .content-list .jpn{
     font-size: 11px;
+  }
+  .explanation h2 {
+    font-size: 17px;
+  }
+  .explanation .eng {
+    font-size: 13px;
+  }
+  .explanation .jpn {
+    font-size: 11px;
+  }
+  .explanation-list h3 {
+    font-size: 17px;
   }
   .nav-menu ul {
     height: 60px;
