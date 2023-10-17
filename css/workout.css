@@ -230,13 +230,11 @@ input[type="checkbox"]:checked ~ .selectbox {
 }
 .line {
   text-decoration-line: line-through;
-  
+  text-decoration-thickness: 3px;
   text-decoration-style: solid;
   text-decoration-color: red;
 }
-.line {
-  text-decoration-thickness: 3px;
-}
+
 .item a {
   display: flex;
   align-items: center;
