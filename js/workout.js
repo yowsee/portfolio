@@ -21,9 +21,6 @@
     for (let l = 0; l < selectbox.length; l++){
       if(selectbox[l].getAttribute('data-select') == paramArray.id){
         selectbox[l].style.display='flex';
-        // if(window.matchMedia("screen and (max-width:768px)").matches){
-        //   selectbox[l].style.display='block';
-        // }
         selectbox[l].parentElement.style.order = '-1';
       }
     }
