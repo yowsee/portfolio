@@ -5,7 +5,7 @@
   });
 
   const selectbox = document.querySelectorAll('.selectbox');
-  const checkPoint =  document.querySelectorAll('.check-point');
+  const checkPoint =  document.querySelectorAll('.check-pointgg');
   
   var url = location.href;	
   var urlParam = location.search.substring(1);
