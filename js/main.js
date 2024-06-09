@@ -4,7 +4,7 @@
     document.getElementById('hamburger-menu').checked = false;
   });
 
-  const anker = document.querySelectorAll('.ankerkk'); 
+  const anker = document.querySelectorAll('.anker'); 
   const checkPoint =  document.querySelectorAll('.check-point');
   const modalOpen = document.querySelectorAll('.modal-open');
   const modalClose = document.querySelectorAll('.close');
