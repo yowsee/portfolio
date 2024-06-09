@@ -4,7 +4,7 @@
     document.getElementById('hamburger-menu').checked = false;
   });
   
-  const week = ['Sunmm', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  const week = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   const today = new Date();
   var showDate = new Date(today.getFullYear(), today.getMonth(), 1);
   const modal = document.getElementById('modal');
