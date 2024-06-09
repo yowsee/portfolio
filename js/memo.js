@@ -4,7 +4,7 @@
     document.getElementById('hamburger-menu').checked = false;
   });
 
-  const modalOpen = document.getElementById('create_memogg');
+  const modalOpen = document.getElementById('create_memo');
   const modalClose = document.getElementById('cancel_memo');
   const modalMask = document.getElementById('mask'); 
   const modal = document.getElementById('modal');
